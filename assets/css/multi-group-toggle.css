@@ -1,0 +1,62 @@
+/* Multi-group toggle styles */
+.wpifycf-field-multi-group__item-header {
+  position: relative;
+  transition: background-color 0.2s ease;
+}
+
+.wpifycf-field-multi-group__item-header:hover {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.wpifycf-field-multi-group__item-header:active {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.wpifycf-field-multi-group__toggle-icon {
+  display: inline-block;
+  font-size: 12px;
+  color: #666;
+  transition: transform 0.2s ease;
+  vertical-align: middle;
+}
+
+.wpifycf-field-multi-group__item--closed .wpifycf-field-multi-group__toggle-icon {
+  transform: rotate(-90deg);
+}
+
+.wpifycf-field-multi-group__content {
+  transition: opacity 0.2s ease;
+}
+
+.wpifycf-field-multi-group__item--closed .wpifycf-field-multi-group__content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+}
+
+/* Ensure buttons and interactive elements in header don't trigger toggle */
+.wpifycf-field-multi-group__item-header button,
+.wpifycf-field-multi-group__item-header a,
+.wpifycf-field-multi-group__item-header input,
+.wpifycf-field-multi-group__item-header select {
+  pointer-events: auto;
+}
+
+/* Visual feedback for clickable header */
+.wpifycf-field-multi-group__item-header:not(:has(button:hover, a:hover, input:focus, select:focus)) {
+  cursor: pointer;
+}
+
+/* Move handle should not trigger toggle */
+.wpifycf__move-handle {
+  pointer-events: none;
+}
+
+/* Header actions should not trigger toggle */
+.wpifycf-field-multi-group__header-actions {
+  pointer-events: auto;
+}
+
+.wpifycf-field-multi-group__header-actions * {
+  pointer-events: auto;
+}

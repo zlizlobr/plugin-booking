@@ -1,0 +1,250 @@
+/* Table Builder Popup Styles */
+.wpcbooking-price-table-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wpcbooking-price-table-popup.hidden {
+    display: none !important;
+}
+
+.wpcbooking-price-table-popup-body {
+    flex: 1;
+    overflow: auto;
+    padding: 24px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Table Builder Button */
+.wpcbooking-price-table-btn {
+    background-color: #007cba;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.wpcbooking-price-table-btn:hover {
+    background-color: #005a87;
+}
+
+.wpcbooking-price-table-btn:focus {
+    outline: 2px solid #007cba;
+    outline-offset: 2px;
+}
+
+/* WordPress Components Modal Overrides */
+.wpcbooking-price-table-popup .components-modal__frame {
+    width: 90%;
+    max-width: 800px;
+    max-height: 90vh;
+    background-color: #fff;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wpcbooking-price-table-popup .components-modal__content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: hidden;
+}
+
+.wpcbooking-price-table-popup .components-modal__header {
+    padding: 16px 24px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 100;
+    background-color: #fff;
+    flex-shrink: 0;
+    visibility: visible;
+    opacity: 1;
+}
+
+.wpcbooking-price-table-popup .components-modal__header-heading {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.wpcbooking-price-table-popup .components-flex.block-editor-freeform-modal__actions {
+    padding: 16px 24px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    position: relative;
+    z-index: 100;
+    background-color: #fff;
+    flex-shrink: 0;
+    visibility: visible;
+    opacity: 1;
+}
+
+.wpcbooking-price-table-popup .components-button {
+    position: relative;
+    z-index: 102;
+    visibility: visible;
+    opacity: 1;
+    display: inline-block;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+/* Fullscreen Mode */
+.wpcbooking-fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999999;
+    background-color: #fff;
+    align-items: stretch;
+    justify-content: stretch;
+    padding: 0;
+}
+
+.wpcbooking-fullscreen .components-modal__frame {
+    width: 100vw;
+    max-width: none;
+    max-height: none;
+    height: 100vh;
+    border-radius: 0;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.wpcbooking-fullscreen .components-modal__header {
+    visibility: visible !important;
+    opacity: 1 !important;
+    display: flex !important;
+    position: relative !important;
+    z-index: 1000 !important;
+    background-color: #fff !important;
+    overflow: visible !important;
+}
+
+.wpcbooking-fullscreen .components-modal__header * {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.wpcbooking-fullscreen .components-modal__header > div:last-child {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    z-index: 1001 !important;
+    position: relative !important;
+}
+
+.wpcbooking-fullscreen .components-modal__header button {
+    visibility: visible !important;
+    opacity: 1 !important;
+    display: flex !important;
+    pointer-events: auto !important;
+    z-index: 1002 !important;
+    position: relative !important;
+    min-width: 32px !important;
+    min-height: 32px !important;
+    cursor: pointer !important;
+}
+
+.wpcbooking-fullscreen .components-modal__header button svg,
+.wpcbooking-fullscreen .components-modal__header button svg path {
+    visibility: visible !important;
+    opacity: 1 !important;
+    display: block !important;
+    fill: currentColor !important;
+}
+
+.wpcbooking-fullscreen .components-flex.block-editor-freeform-modal__actions {
+    visibility: visible !important;
+    opacity: 1 !important;
+    display: flex !important;
+    position: relative !important;
+    z-index: 1000 !important;
+    background-color: #fff !important;
+    overflow: visible !important;
+}
+
+.wpcbooking-fullscreen .components-flex.block-editor-freeform-modal__actions * {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.wpcbooking-fullscreen .components-flex.block-editor-freeform-modal__actions button {
+    visibility: visible !important;
+    opacity: 1 !important;
+    display: inline-block !important;
+    pointer-events: auto !important;
+    z-index: 1001 !important;
+    position: relative !important;
+    cursor: pointer !important;
+}
+
+.wpcbooking-fullscreen .components-modal__content {
+    overflow: visible !important;
+}
+
+.wpcbooking-fullscreen .wpcbooking-price-table-popup-body {
+    overflow: auto !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .wpcbooking-price-table-popup .components-modal__frame {
+        width: 95%;
+        max-width: 95%;
+        max-height: 80vh;
+        margin: 10px;
+    }
+    
+    .wpcbooking-price-table-popup-body {
+        padding: 15px;
+    }
+    
+    .wpcbooking-price-table-popup .components-modal__header,
+    .wpcbooking-price-table-popup .components-flex {
+        padding: 12px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .wpcbooking-price-table-popup .components-modal__frame {
+        width: 100%;
+        max-width: 100%;
+        max-height: 100vh;
+        min-height: 100vh;
+        margin: 0;
+        border-radius: 0;
+    }
+    
+    .wpcbooking-price-table-popup .components-flex {
+        flex-direction: column;
+    }
+    
+    .wpcbooking-price-table-popup .components-button {
+        width: 100%;
+    }
+}

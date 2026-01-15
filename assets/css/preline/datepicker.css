@@ -1,0 +1,244 @@
+/* Custom Datepicker Styles - Updated for webpack compilation */
+.vc {
+  background: white !important;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  border: 1px solid #e5e7eb;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  position: absolute;
+  top: 100%;
+  left: auto;
+  width: 400px;
+  min-width: 320px;
+  z-index: 1000;
+  margin-top: 4px;
+  color: #1f2937 !important;
+}
+
+/* Ensure input container has relative positioning */
+.hs-datepicker {
+  position: relative;
+}
+
+/* Header styling */
+.vc [data-vc="header"] {
+  padding: 16px 20px 12px;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+/* Month/Year selector styling */
+.vc [data-vc="header"] .hs-select button {
+  font-weight: 600;
+  color: #1f2937 !important;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.vc [data-vc="header"] .hs-select button:hover {
+  background-color: #f3f4f6;
+  color: #374151 !important;
+}
+
+/* Arrow buttons */
+.vc-arrow {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ff8c00 !important;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+  position: relative;
+}
+
+.vc-arrow:hover {
+  background-color: #fff7ed;
+  color: #ea580c !important;
+  border-color: #ff8c00;
+}
+
+.vc-arrow svg {
+  width: 16px;
+  height: 16px;
+  color: inherit;
+}
+
+/* Šipka vlevo (předchozí měsíc) */
+.vc-arrow_prev::before {
+  content: "‹";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1;
+  color: inherit;
+}
+
+/* Šipka vpravo (další měsíc) */
+.vc-arrow_next::before {
+  content: "›";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1;
+  color: inherit;
+}
+
+/* Week day headers - flexbox pro 7 sloupců */
+.vc-week {
+  padding: 12px 20px 8px;
+  border-bottom: 1px solid #f3f4f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vc-week__day {
+  font-weight: 600;
+  color: #6b7280 !important;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 8px 4px;
+  flex: 1;
+  text-align: center;
+  min-width: 0;
+}
+
+/* Date grid - flexbox pro 7 sloupců */
+.vc-dates {
+  padding: 8px 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.vc-date {
+  display: flex;
+  width: calc(100% / 7);
+  height: 40px;
+  margin: 2px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.vc-date__btn {
+  width: 36px;
+  height: 36px;
+  border: none;
+  background: transparent;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1f2937 !important;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Current month dates */
+.vc-date[data-vc-date-month="current"] .vc-date__btn:hover {
+  background-color: #fff7ed;
+  color: #ff8c00 !important;
+}
+
+/* Next month dates (faded) */
+.vc-date[data-vc-date-month="next"] .vc-date__btn {
+  color: #9ca3af !important;
+}
+
+/* Previous month dates (faded) */
+.vc-date[data-vc-date-month="prev"] .vc-date__btn {
+  color: #9ca3af !important;
+}
+
+/* Selected date (vybrané datum) */
+.vc-date[data-vc-date-selected] .vc-date__btn {
+  background-color: #ff8c00 !important;
+  color: white !important;
+  font-weight: 600;
+}
+
+.vc-date[data-vc-date-selected] .vc-date__btn:hover {
+  background-color: #ea580c !important;
+}
+
+/* Today date (dnešní datum s outline) */
+.vc-date[data-vc-date-today] .vc-date__btn {
+  border: 2px solid #ff8c00;
+  color: #ff8c00 !important;
+  font-weight: 600;
+}
+
+.vc-date[data-vc-date-today] .vc-date__btn:hover {
+  background-color: #fff7ed;
+}
+
+/* Today date když je selected */
+.vc-date[data-vc-date-today][data-vc-date-selected] .vc-date__btn {
+  background-color: #ff8c00 !important;
+  border-color: #ff8c00;
+  color: white !important;
+}
+
+/* Weekend dates */
+.vc-date[data-vc-date-weekend] .vc-date__btn {
+  color: #ef4444 !important;
+}
+
+.vc-date[data-vc-date-weekend] .vc-date__btn:hover {
+  background-color: #fef2f2;
+}
+
+/* Disabled dates */
+.vc-date[data-vc-date-disabled] .vc-date__btn {
+  color: #d1d5db !important;
+  cursor: not-allowed;
+}
+
+/* Dropdown styling for month/year selectors */
+.hs-select-dropdown {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  background: white !important;
+}
+
+.hs-select-dropdown [data-value] {
+  border-radius: 6px;
+  margin: 2px;
+  transition: all 0.2s ease;
+  color: #1f2937 !important;
+}
+
+.hs-select-dropdown [data-value]:hover {
+  background-color: #fff7ed;
+}
+
+.hs-select-dropdown [data-value].selected {
+  background-color: #ff8c00;
+  color: white !important;
+}
+
+/* Input field styling */
+.hs-datepicker {
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  background: white;
+}
+
+.hs-datepicker:focus {
+  border-color: #ff8c00;
+  box-shadow: 0 0 0 3px rgba(255, 140, 0, 0.1);
+  outline: none;
+}
+
+.hs-datepicker::placeholder {
+  color: #9ca3af;
+}

@@ -1,0 +1,14 @@
+{
+    "plugin_name": "Booking",
+    "plugin_slug": "wpcbooking",
+    "plugin_prefix": "WPCBOOKING",
+    "author": "Artevio",
+    "author_email": "radek.chaloupka@email.com",
+    "description": "refaktor a preact acf-flowform",
+    "version": "1.0.0",
+    "min_wp_version": "5.0",
+    "min_php_version": "7.4",
+    "text_domain": "wpcbooking",
+    "namespace": "Wpcbooking",
+    "class_prefix": "Wpcbooking"
+  }

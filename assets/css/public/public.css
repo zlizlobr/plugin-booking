@@ -1,0 +1,17 @@
+@import '../shared/base.css';
+@import '../shared/components.css';
+@import '../shared/utilities.css';
+@import './components/booking-form.css';
+@import './components/datepicker.css';
+@import './components/timepicker.css';
+@import './components/googlemap.css';
+@import './utilities/public-only.css';
+@import '../wpify/index.css';
+@import "../preline/index.css";
+
+/* Import wpify modules */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom public styles below */
