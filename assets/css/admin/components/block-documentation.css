@@ -1,0 +1,177 @@
+/* Block Documentation Styles - Booking Theme */
+
+.wpcbooking-block-documentation {
+    padding: 16px;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.wpcb-doc-h1 {
+    color: #1f2937;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 12px 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #2563eb;
+    display: flex;
+    align-items: center;
+}
+
+.wpcb-doc-h1:before {
+    content: "📚";
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+.wpcb-doc-h2 {
+    color: #374151;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0 10px 0;
+    padding: 8px 12px;
+    background: #f9fafb;
+    border-left: 3px solid #2563eb;
+    border-radius: 4px;
+}
+
+.wpcb-doc-h3 {
+    color: #374151;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 16px 0 8px 0;
+    padding-left: 8px;
+    border-left: 2px solid #2563eb;
+}
+
+.wpcb-doc-h4 {
+    color: #374151;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 12px 0 6px 0;
+}
+
+.wpcb-doc-h5 {
+    color: #6b7280;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 10px 0 6px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.wpcbooking-block-documentation p {
+    line-height: 1.6;
+    margin: 8px 0;
+    color: #374151;
+    font-size: 13px;
+}
+
+.wpcb-doc-code {
+    background: #1f2937;
+    color: #e5e7eb;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: "SF Mono", Monaco, Consolas, monospace;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.wpcb-doc-ul {
+    margin: 10px 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.wpcb-doc-li {
+    padding: 6px 10px 6px 28px;
+    margin: 4px 0;
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 4px;
+    position: relative;
+    line-height: 1.5;
+    font-size: 13px;
+    color: #374151;
+}
+
+.wpcb-doc-li:before {
+    content: "▸";
+    position: absolute;
+    left: 10px;
+    color: #2563eb;
+    font-weight: bold;
+}
+
+.wpcb-doc-li strong {
+    color: #1f2937;
+}
+
+.wpcbooking-block-documentation strong {
+    color: #1f2937;
+    font-weight: 600;
+}
+
+.wpcb-doc-error {
+    padding: 12px;
+    background: #fef2f2;
+    border: 1px solid #fecaca;
+    border-radius: 6px;
+    color: #dc2626;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+}
+
+.wpcb-doc-error:before {
+    content: "⚠️";
+    font-size: 16px;
+}
+
+/* Block Info Badge */
+.wpcb-doc-badge {
+    display: inline-block;
+    padding: 3px 10px;
+    background: #dbeafe;
+    color: #1e40af;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 600;
+    margin: 0 4px 4px 0;
+}
+
+.wpcb-doc-badge.badge-icon {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+/* Description Box */
+.wpcb-doc-description {
+    background: #f9fafb;
+    padding: 12px;
+    border-radius: 6px;
+    margin: 12px 0;
+    border-left: 3px solid #2563eb;
+    font-size: 13px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .wpcbooking-block-documentation {
+        padding: 12px;
+    }
+    
+    .wpcb-doc-h1 {
+        font-size: 18px;
+    }
+    
+    .wpcb-doc-h2 {
+        font-size: 15px;
+    }
+}
+

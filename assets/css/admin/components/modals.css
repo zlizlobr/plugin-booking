@@ -1,0 +1,237 @@
+/* Admin-specific modal components */
+
+.admin-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.admin-modal {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 100%;
+  max-height: 90vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-modal-header {
+  padding: 20px 24px 16px;
+  border-bottom: 1px solid #c3c4c7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.admin-modal-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1d2327;
+  margin: 0;
+}
+
+.admin-modal-close {
+  background: none;
+  border: none;
+  color: #646970;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 3px;
+  transition: all 0.15s ease-in-out;
+}
+
+.admin-modal-close:hover {
+  background-color: #f0f0f1;
+  color: #2c3338;
+}
+
+.admin-modal-body {
+  padding: 24px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.admin-modal-footer {
+  padding: 16px 24px 20px;
+  border-top: 1px solid #c3c4c7;
+  background-color: #f6f7f7;
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+/* Modal sizes */
+.admin-modal-sm {
+  max-width: 400px;
+}
+
+.admin-modal-lg {
+  max-width: 800px;
+}
+
+.admin-modal-xl {
+  max-width: 1000px;
+}
+
+.admin-modal-full {
+  max-width: 95vw;
+  max-height: 95vh;
+}
+
+/* Modal animations */
+.admin-modal-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.admin-modal-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 0.2s ease-out, transform 0.2s ease-out;
+}
+
+.admin-modal-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.admin-modal-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 0.15s ease-in, transform 0.15s ease-in;
+}
+
+/* Modal content types */
+.admin-modal-content-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.admin-modal-content-text {
+  line-height: 1.6;
+  color: #2c3338;
+}
+
+.admin-modal-content-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.admin-modal-content-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #f0f0f1;
+}
+
+.admin-modal-content-list li:last-child {
+  border-bottom: none;
+}
+
+/* Modal alerts */
+.admin-modal-alert {
+  padding: 16px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.admin-modal-alert-success {
+  background-color: #d1e7dd;
+  color: #0f5132;
+  border: 1px solid #badbcc;
+}
+
+.admin-modal-alert-warning {
+  background-color: #fff3cd;
+  color: #664d03;
+  border: 1px solid #ffecb5;
+}
+
+.admin-modal-alert-error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c2c7;
+}
+
+.admin-modal-alert-info {
+  background-color: #d1ecf1;
+  color: #055160;
+  border: 1px solid #bee5eb;
+}
+
+/* Modal loading state */
+.admin-modal-loading {
+  position: relative;
+}
+
+.admin-modal-loading::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.admin-modal-loading::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin: -12px 0 0 -12px;
+  border: 2px solid #e5e7eb;
+  border-top-color: #2271b1;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  z-index: 2;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Responsive modal */
+@media (max-width: 768px) {
+  .admin-modal {
+    max-width: 100%;
+    margin: 0;
+    border-radius: 0;
+    max-height: 100vh;
+  }
+  
+  .admin-modal-header,
+  .admin-modal-body,
+  .admin-modal-footer {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  
+  .admin-modal-footer {
+    flex-direction: column;
+  }
+  
+  .admin-modal-footer .admin-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}

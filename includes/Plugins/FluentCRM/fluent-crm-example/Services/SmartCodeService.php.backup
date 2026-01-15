@@ -1,0 +1,149 @@
+<?php
+
+namespace NBH\Includes\Services;
+
+use NBH\Includes\Traits\NotificationTrait;
+use FluentCrm\App\Models\FunnelSubscriber;
+
+/**
+ * Service for handling FluentCRM smart codes. 
+ */
+class SmartCodeService
+{
+    use NotificationTrait;
+    // todo: vyfiltrovat jen pro nbh triggers
+    /**
+     * Parse hospital smart code for FluentCRM templates.
+     *
+     * @param string $code Smart code to parse
+     * @param string $valueKey Key to retrieve from hospital data
+     * @param mixed $defaultValue Default value if key not found
+     * @param object $subscriber FluentCRM subscriber object
+     * @return mixed Parsed value or default value
+     */
+    public function parse_hospital_smart_code(string $code, string $valueKey, $defaultValue, object $subscriber)
+    {
+        $hospital_id = null;
+        if ($subscriber->funnel_subscriber_id) {
+            $funnelSub = FunnelSubscriber::find($subscriber->funnel_subscriber_id);
+            if ($funnelSub) {
+                $hospital_id = $funnelSub->source_ref_id ?? null;
+            }
+        }
+
+        
+        if (!is_numeric($hospital_id) || !get_post($hospital_id)) {
+             return $defaultValue;
+        }
+
+
+        try {
+            return $this->get_hospital_value($hospital_id, $valueKey, $defaultValue);
+        } catch (\Throwable $th) {
+            $this->handle_error($th->getMessage(), ['file' => $th->getFile(), 'line' => $th->getLine()]);
+            return $defaultValue;
+        }
+    }
+
+    /**
+     * Get hospital value based on key.
+     *
+     * @param int $hospital_id
+     * @param string $valueKey
+     * @param mixed $defaultValue
+     * @return mixed
+     */
+    private function get_hospital_value(int $hospital_id, string $valueKey, $defaultValue)
+    {
+        $post = get_post($hospital_id);
+        switch ($valueKey) {
+            case 'hospital_name':
+                return esc_html(get_the_title($hospital_id));
+            case 'hospital_link':
+                return esc_url(get_permalink($hospital_id));
+            case 'hospital_image':
+                return $this->get_hospital_image_url($hospital_id, $defaultValue);
+            default:
+                return $defaultValue;
+        }
+    }
+
+    /**
+     * Get hospital image URL from hospital_data template.
+     *
+     * @param int $hospital_id
+     * @param mixed $defaultValue
+     * @return string Image URL or default value
+     */
+    private function get_hospital_image_url(int $hospital_id, $defaultValue)
+    {
+        try {
+            // Načteme hospital_data z custom fieldu nebo meta
+            $hospital_data = get_post_meta($hospital_id, 'hospital_data', true);
+
+            // Pokud hospital_data neexistuje, zkusíme ACF
+            if (empty($hospital_data) && function_exists('get_field')) {
+                $hospital_data = get_field('hospital_data', $hospital_id);
+            }
+
+            // Pokud stále nemáme data, vrátíme default
+            if (empty($hospital_data)) {
+                return $defaultValue;
+            }
+
+            // Pokud je hospital_data JSON string, dekódujeme ho
+            if (is_string($hospital_data)) {
+                $hospital_data = json_decode($hospital_data, true);
+            }
+
+            // Načteme map_image ID
+            $map_image_id = null;
+            if (is_array($hospital_data) && isset($hospital_data['map_image'])) {
+                $map_image_id = $hospital_data['map_image'];
+            }
+
+            // Pokud nemáme ID obrázku, vrátíme default
+            if (empty($map_image_id) || !is_numeric($map_image_id)) {
+                return $defaultValue;
+            }
+
+            // Získáme URL obrázku ve full velikosti
+            $image_url = wp_get_attachment_image_url($map_image_id, 'full');
+
+            // Pokud se nepodařilo získat URL, vrátíme default
+            if (!$image_url) {
+                return $defaultValue;
+            }
+
+            return esc_url($image_url);
+        } catch (\Throwable $th) {
+            $this->handle_error($th->getMessage(), [
+                'file' => $th->getFile(),
+                'line' => $th->getLine(),
+                'hospital_id' => $hospital_id
+            ]);
+            return $defaultValue;
+        }
+    }
+
+    /**
+     * Add custom smart codes for hospital data.
+     *
+     * @param array $codes Existing smart codes
+     * @return array Modified smart codes array
+     */
+    public function push_general_codes(array $codes): array
+    {
+        $codes['nbh_hospital'] = [
+            'key'        => 'nbh_hospital_data',
+            'title'      => __('Hospital', 'nbh'),
+            'shortcodes' => [
+                '{{nbh_hospital.hospital_name}}' => __('Hospital Name', 'nbh'),
+                '##nbh_hospital.hospital_link##' => __('Hospital Link', 'nbh'),
+                '##nbh_hospital.hospital_image##' => __('Hospital Image', 'nbh'),
+            ]
+        ];
+
+        return $codes;
+    }
+}

@@ -1,0 +1,3638 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Booking\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-05 09:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.0; wp-6.8.1; php-8.4.15\n"
+"X-Domain: wpcbooking"
+
+#: includes/Blocks/AbstractProductBlock.php:1378
+#, php-format
+msgid "%d (per %s)"
+msgstr ""
+
+#: includes/Views/Blocks/Public/icons-list.php:7
+msgid "%d icons"
+msgstr ""
+
+#: includes/Views/Blocks/Public/product-list.php:7
+#: includes/Views/Blocks/Public/product-grid.php:7
+msgid "%d Products"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/SubmitQuoteMutation.php:147
+#, php-format
+msgid "%d# Quote: %s"
+msgstr ""
+
+#: includes/Blocks/TextInput.php:116
+msgid "- Select Field -"
+msgstr ""
+
+#: includes/Blocks/TimePicker.php:154
+msgid "1 minute"
+msgstr ""
+
+#: includes/Blocks/TimePicker.php:156
+msgid "15 minutes"
+msgstr ""
+
+#: includes/Blocks/TimePicker.php:155
+msgid "5 minutes"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/FormType.php:22
+msgid "A booking form"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/QuoteType.php:22
+msgid "A booking quote"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/BlockType.php:22
+msgid "A form block"
+msgstr ""
+
+#: includes/Views/CPT/Quote/single-quote.php:203
+msgid "Accept order"
+msgstr ""
+
+#: includes/CPT/Quote.php:119
+msgid "Accepted"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:287
+msgid "Add"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:201
+#, php-format
+msgid "Add %s for the page link"
+msgstr ""
+
+#: includes/Blocks/NumberInput.php:94
+msgid "Add after"
+msgstr ""
+
+#: includes/CPT/Quote.php:308
+msgid "Add fee"
+msgstr ""
+
+#: includes/Blocks/StepSection.php:66
+msgid "Add fields to the step"
+msgstr ""
+
+#: includes/CPT/Quote.php:66 includes/CPT/Booking.php:32
+msgid "Add New"
+msgstr ""
+
+#: includes/CPT/Booking.php:33
+msgid "Add New Booking"
+msgstr ""
+
+#: includes/CPT/Quote.php:67
+msgid "Add New Quote"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:285
+msgid "Add/Substract"
+msgstr ""
+
+#: includes/Views/CPT/Quote/email-summary.php:242
+msgid "Addition"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:401
+msgid "Address Type"
+msgstr ""
+
+#: includes/CPT/Quote.php:362
+msgid "Admin created an offer, added price, and confirmed it"
+msgstr ""
+
+#: includes/Plugins/FluentCRM/QuoteSmartCode.php:44
+msgid "Admin Edit URL"
+msgstr ""
+
+#: includes/CPT/Quote.php:361
+msgid "Admin opened and viewed the booking"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:26 includes/Blocks/PhoneInput.php:45
+#: includes/Blocks/DataPicker.php:26 includes/Blocks/DataPicker.php:45
+#: includes/Blocks/EmailInput.php:25 includes/Blocks/EmailInput.php:44
+#: includes/Blocks/TimePicker.php:37 includes/Blocks/TimePicker.php:57
+#: includes/Blocks/GoogleMap.php:27 includes/Blocks/GoogleMap.php:46
+#: includes/Blocks/TextInput.php:26 includes/Blocks/TextInput.php:45
+#: includes/Blocks/NumberInput.php:26 includes/Blocks/NumberInput.php:44
+msgid "Advanced"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:212
+msgid "Afghanistan"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:213
+msgid "Albania"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:214
+msgid "Algeria"
+msgstr ""
+
+#: includes/CPT/Quote.php:534
+msgid "All"
+msgstr ""
+
+#: includes/Blocks/ProductGrid.php:38
+msgid "All at once"
+msgstr ""
+
+#: includes/CPT/Booking.php:41
+msgid "All Bookings"
+msgstr ""
+
+#: includes/CPT/Quote.php:64 includes/CPT/Quote.php:75
+msgid "All Quotes"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:102
+msgid "Allow Countries"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:135
+msgid "Allow Dropdown"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:103
+msgid "Allow only the defined countries"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:220
+msgid "Allow Past Dates"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:639
+msgid "Allowed"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:627
+msgid "Allowed Products to Select"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:215
+msgid "American Samoa"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/InnerBlockType.php:22
+msgid "An inner block"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/InputType.php:22
+msgid "An input field"
+msgstr ""
+
+#: includes/Blocks/StepSection.php:182
+msgid "AND"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:216
+msgid "Andorra"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:217
+msgid "Angola"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:218
+msgid "Anguilla"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:219
+msgid "Antarctica"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:220
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:161
+msgid "Apply display conditions"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:581
+msgid "Apply on free products"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:256 includes/Blocks/TimePicker.php:185
+#: includes/Blocks/GoogleMap.php:359
+msgid "Apply price calculation"
+msgstr ""
+
+#: includes/Plugins/FluentCRM/ApplyQuoteStatusAction.php:42
+#: includes/Plugins/FluentCRM/ApplyQuoteStatusAction.php:54
+msgid "Apply Status to the Quote"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:221
+msgid "Argentina"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:222
+msgid "Armenia"
+msgstr ""
+
+#. Author of the plugin
+msgid "Artevio"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:223
+msgid "Aruba"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/QuoteType.php:50
+msgid "Associated form ID"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/FormType.php:46
+msgid "Associated quote"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:224
+msgid "Australia"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:225
+msgid "Austria"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:293
+msgid "Auto"
+msgstr ""
+
+#: includes/Blocks/EmailInput.php:115
+msgid "Automatically create WordPress user account with this email"
+msgstr ""
+
+#: includes/Plugins/Woocomerce/WoocomerceController.php:53
+msgid "Available currencies"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:226
+msgid "Azerbaijan"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:122 includes/CPT/BookingOptions.php:256
+msgid "Background image"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:257
+msgid "Background image of the thank you page"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:227
+msgid "Bahamas"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:228
+msgid "Bahrain"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:229
+msgid "Bangladesh"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:230
+msgid "Barbados"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/QuoteType.php:34
+#: includes/Plugins/WpGraphql/Types/QuoteDataInputType.php:30
+msgid "Base total"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:114
+msgid "Basic Settings"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:25
+msgid "Basic Setup"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:116
+msgid "Behavior"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:231
+msgid "Belarus"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:232
+msgid "Belgium"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:233
+msgid "Belize"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:234
+msgid "Benin"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:235
+msgid "Bermuda"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:236
+msgid "Bhutan"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:404
+msgid "Billing Address"
+msgstr ""
+
+#: includes/Blocks/TextInput.php:126
+msgid "Billing Address 1"
+msgstr ""
+
+#: includes/Blocks/TextInput.php:127
+msgid "Billing Address 2"
+msgstr ""
+
+#: includes/Blocks/TextInput.php:128
+msgid "Billing City"
+msgstr ""
+
+#: includes/Blocks/TextInput.php:125
+msgid "Billing Company"
+msgstr ""
+
+#: includes/Blocks/TextInput.php:131
+msgid "Billing Country"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:179
+msgid "Billing Phone"
+msgstr ""
+
+#: includes/Blocks/TextInput.php:130
+msgid "Billing Postcode"
+msgstr ""
+
+#: includes/Blocks/TextInput.php:129
+msgid "Billing State"
+msgstr ""
+
+#: includes/Blocks/TextInput.php:124
+msgid "Biographical Info"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:113
+msgid "Black text"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/BlockDataType.php:22
+#: includes/Plugins/WpGraphql/Types/BlockType.php:30
+msgid "Block data"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/ValidateAndSaveBlockMutation.php:45
+msgid "Block data as JSON string"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/ValidateAndSaveBlockMutation.php:174
+msgid "Block data is required"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/InnerBlockType.php:42
+msgid "Block inputs"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/InnerBlockType.php:26
+msgid "Block key"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/ValidateAndSaveBlockMutation.php:41
+msgid "Block name"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/ValidateAndSaveBlockMutation.php:170
+msgid "Block name not defined"
+msgstr ""
+
+#: includes/Traits/ValidatesBlockTrait.php:17
+msgid "Block not found"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/InnerBlockType.php:34
+msgid "Block price"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/BlockType.php:26
+msgid "Block step"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/BlockDataType.php:26
+msgid "Block title"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/InnerBlockType.php:30
+msgid "Block value"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:237
+msgid "Bolivia"
+msgstr ""
+
+#. Name of the plugin
+#: includes/CPT/Booking.php:28 includes/CPT/Booking.php:31
+#: includes/Plugins/FluentCRM/ApplyQuoteStatusAction.php:41
+#: includes/Plugins/FluentCRM/QuoteStatusChangedTrigger.php:25
+msgid "Booking"
+msgstr ""
+
+#: includes/Blocks/BookingForm.php:42
+msgid "Booking "
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:21
+msgid "Booking - Options"
+msgstr ""
+
+#: includes/CPT/Booking.php:42
+msgid "Booking Archives"
+msgstr ""
+
+#: includes/CPT/Booking.php:43
+msgid "Booking Attributes"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:27
+msgid "Booking Flow"
+msgstr ""
+
+#: includes/Blocks/BookingForm.php:17
+#: includes/Views/Blocks/Public/booking-form.php:15
+msgid "Booking Form"
+msgstr ""
+
+#: includes/Views/Blocks/Public/booking-form.php:27
+msgid "Booking form is not set"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/SubmitQuoteMutation.php:50
+#: includes/Plugins/WpGraphql/Mutations/SaveStepMutation.php:46
+msgid "Booking ID"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/ValidateAndSaveBlockMutation.php:183
+#: includes/Plugins/WpGraphql/Mutations/SubmitQuoteMutation.php:182
+#: includes/Plugins/WpGraphql/Mutations/SaveStepMutation.php:100
+msgid "Booking ID is required"
+msgstr ""
+
+#: includes/CPT/Booking.php:55
+msgid "Booking published privately."
+msgstr ""
+
+#: includes/CPT/Booking.php:54
+msgid "Booking published."
+msgstr ""
+
+#: includes/Plugins/FluentCRM/QuoteSmartCode.php:33
+msgid "Booking Quote"
+msgstr ""
+
+#: includes/CPT/Booking.php:56
+msgid "Booking reverted to draft."
+msgstr ""
+
+#: includes/CPT/Booking.php:57
+msgid "Booking scheduled."
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:156
+msgid "Booking summary"
+msgstr ""
+
+#: includes/CPT/Booking.php:58
+msgid "Booking updated."
+msgstr ""
+
+#: includes/CPT/Booking.php:30 includes/CPT/Booking.php:50
+msgid "Bookings"
+msgstr ""
+
+#: includes/CPT/Booking.php:53
+msgid "Bookings list"
+msgstr ""
+
+#: includes/CPT/Booking.php:52
+msgid "Bookings list navigation"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:238
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:181 includes/Blocks/GoogleMap.php:406
+msgid "Both (Billing & Shipping)"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:239
+msgid "Botswana"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:240
+msgid "Bouvet Island"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:241
+msgid "Brazil"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:242
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:243
+msgid "Brunei Darussalam"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:244
+msgid "Bulgaria"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:245
+msgid "Burkina Faso"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:246
+msgid "Burundi"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:262 includes/Blocks/TimePicker.php:190
+msgid "Busy day calculation"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:263 includes/CPT/BookingOptions.php:303
+msgid "Button icon"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:276
+msgid "Button link"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:270 includes/CPT/BookingOptions.php:310
+msgid "Button text"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:96
+msgid "By Category and Tag"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/DistanceQuery.php:29
+msgid "Calculate distance between two coordinates in kilometers"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:27 includes/Blocks/DataPicker.php:52
+#: includes/Blocks/TimePicker.php:38 includes/Blocks/TimePicker.php:64
+#: includes/Blocks/GoogleMap.php:28 includes/Blocks/GoogleMap.php:53
+msgid "Calculation Quote"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:90
+msgid "Calendar Options"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:247
+msgid "Cambodia"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:248
+msgid "Cameroon"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:249
+msgid "Canada"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:250
+msgid "Cape Verde"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/QuoteType.php:46
+#: includes/Plugins/WpGraphql/Types/QuoteDataInputType.php:38
+msgid "Cart total"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:251
+msgid "Cayman Islands"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:174
+msgid "Center Latitude"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:180
+msgid "Center Longitude"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:252
+msgid "Central African Republic"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:253
+msgid "Chad"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:254
+msgid "Chile"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:255
+msgid "China"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:121
+msgid "Choose the date display format"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:149
+msgid "Choose the language/locale"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:103
+msgid "Choose the operational mode"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:256
+msgid "Christmas Island"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:320
+msgid "Clickable Icons"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:257
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:258
+msgid "Colombia"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:104
+msgid "Colored text"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:259
+msgid "Comoros"
+msgstr ""
+
+#: includes/Blocks/StepSection.php:120
+msgid "Conditions Step"
+msgstr ""
+
+#: includes/Views/CPT/Quote/single-quote.php:65
+msgid "Confirm Your Order"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:291
+msgid "Confirmation heading"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:297
+msgid "Confirmation text"
+msgstr ""
+
+#: includes/CPT/Quote.php:116
+msgid "Confirmed"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:286
+msgid "Confirmed booking"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:260
+msgid "Congo"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:261
+msgid "Congo, Democratic Republic of the"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:115
+msgid "Controls"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:262
+msgid "Cook Islands"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:294
+msgid "Cooperative"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:263
+msgid "Costa Rica"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:264
+msgid "Cote D'Ivoire"
+msgstr ""
+
+#: includes/Blocks/EmailInput.php:113
+msgid "Create Account"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:49
+msgid "Create quote after field is filled"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/SubmitQuoteMutation.php:77
+msgid "Created order ID"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:265
+msgid "Croatia"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:266
+msgid "Cuba"
+msgstr ""
+
+#: includes/CPT/Quote.php:390
+msgid "Currency"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/QuoteType.php:30
+#: includes/Plugins/WpGraphql/Types/QuoteDataInputType.php:42
+msgid "Currency code"
+msgstr ""
+
+#: includes/Plugins/Woocomerce/WoocomerceController.php:62
+msgid "Currency that will be displayed as default"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:127 includes/Blocks/DataPicker.php:157
+msgid "Custom"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:134
+msgid "Custom Date Format"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:164
+msgid "Custom Locale"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:182 includes/Blocks/GoogleMap.php:408
+msgid "Custom Meta Field"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:195
+msgid "Custom Meta Key"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:421
+msgid "Custom Meta Key Prefix"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:185
+msgid "Custom Navigation Arrows"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:106
+msgid "Custom Select (months, years, time)"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:179
+msgid "Custom text to replace \"Today\" (e.g., Dnes)"
+msgstr ""
+
+#: includes/Blocks/EmailInput.php:124
+msgid "Customer"
+msgstr ""
+
+#: includes/CPT/Quote.php:365
+msgid "Customer accepted the offer, order created"
+msgstr ""
+
+#: includes/CPT/Quote.php:364
+msgid "Customer opened and viewed the offer"
+msgstr ""
+
+#: includes/CPT/Quote.php:366
+msgid "Customer paid for the order"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:267
+msgid "Cyprus"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:152
+msgid "Czech"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:268
+msgid "Czech Republic"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:156
+msgid "Danish"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:567
+msgid "Date"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:120
+msgid "Date Format"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:15
+msgid "Date Picker"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/QuotesCountQuery.php:73
+msgid "Date value is required"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/QuotesCountQuery.php:78
+msgid "Date value must be in YYYY-MM-DD format"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:431 includes/Blocks/GoogleMap.php:963
+msgid "Day occupancy Fee"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:105
+msgid "Default"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:70
+msgid "Default booking page"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:116
+msgid "Default Country"
+msgstr ""
+
+#: includes/Plugins/Woocomerce/WoocomerceController.php:61
+msgid "Default currency"
+msgstr ""
+
+#: includes/Blocks/NumberInput.php:82
+msgid "Default number"
+msgstr ""
+
+#: includes/Plugins/Woocomerce/WoocomerceController.php:69
+msgid "Default shipping"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:110
+msgid "Define the countries to appear at the top of the list"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:413
+msgid "Definition Conditions"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:656
+#: includes/Blocks/AbstractProductBlock.php:700
+msgid "Definitions"
+msgstr ""
+
+#: includes/CPT/Quote.php:313
+msgid "Delete"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:269
+msgid "Denmark"
+msgstr ""
+
+#: includes/Blocks/StepSection.php:98
+msgid "Description"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/DistanceQuery.php:82
+msgid "Destination coordinates (destLat and destLng) are required"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/DistanceQuery.php:95
+msgid "Destination latitude must be between -90 and 90"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/DistanceQuery.php:99
+msgid "Destination longitude must be between -180 and 180"
+msgstr ""
+
+#: includes/Blocks/StepSection.php:140
+msgid "Disable"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:314
+msgid "Disable Default UI"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:284
+msgid "Disable Double Click Zoom"
+msgstr ""
+
+#: includes/Views/CPT/Quote/email-summary.php:242
+msgid "Discount"
+msgstr ""
+
+#: includes/Blocks/BookingForm.php:18
+msgid ""
+"Display a booking form with date picker input field with calendar options"
+msgstr ""
+
+#: includes/Blocks/ProductGrid.php:16
+msgid "Display a booking product grid"
+msgstr ""
+
+#: includes/Blocks/ProductList.php:17
+msgid "Display a booking product list"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:16
+msgid "Display a date picker input field with calendar options"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:17
+msgid "Display a Google Maps input field with location selection"
+msgstr ""
+
+#: includes/Blocks/IconsList.php:16
+msgid "Display a list of icons for selection"
+msgstr ""
+
+#: includes/Blocks/NumberInput.php:16
+msgid "Display a number input field with validation and options"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:16
+msgid "Display a phone input field with international formatting"
+msgstr ""
+
+#: includes/Blocks/StepSection.php:20
+msgid "Display a step section with icon, title, and description"
+msgstr ""
+
+#: includes/Blocks/TextInput.php:16
+msgid "Display a text input field with validation"
+msgstr ""
+
+#: includes/Blocks/TimePicker.php:16
+msgid "Display a time picker input field with time restrictions"
+msgstr ""
+
+#: includes/Blocks/EmailInput.php:15
+msgid "Display an email input field with validation"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:468
+msgid "Display Conditions"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:175
+msgid "Display detailed price calculations on summary"
+msgstr ""
+
+#: includes/Blocks/TimePicker.php:114
+msgid "Display Format"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:174
+msgid "Display in Total summary"
+msgstr ""
+
+#: includes/Blocks/TextInput.php:121
+msgid "Display Name"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:142
+msgid "Display the country dial code next to the selected flag"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:364
+msgid "Distance calculation"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/DistanceQuery.php:128
+msgid "Distance calculation error: "
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:270
+msgid "Djibouti"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:28 includes/Blocks/DataPicker.php:28
+#: includes/Blocks/EmailInput.php:27 includes/Blocks/IconsList.php:26
+#: includes/Blocks/StepSection.php:31
+#: includes/Blocks/AbstractProductBlock.php:33
+#: includes/Blocks/TimePicker.php:39 includes/Blocks/GoogleMap.php:30
+#: includes/Blocks/BookingForm.php:33 includes/Blocks/TextInput.php:28
+#: includes/Blocks/NumberInput.php:27
+msgid "Documentation"
+msgstr ""
+
+#: includes/Blocks/AbstractBlock.php:343
+msgid "Documentation not available."
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:271
+msgid "Dominica"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:272
+msgid "Dominican Republic"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:272
+msgid "Draggable"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:273
+msgid "Ecuador"
+msgstr ""
+
+#: includes/CPT/Booking.php:34
+msgid "Edit Booking"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:244
+msgid "Edit in Quote"
+msgstr ""
+
+#: includes/CPT/Quote.php:68
+msgid "Edit Quote"
+msgstr ""
+
+#: includes/Views/Blocks/Public/booking-form.php:18
+msgid "Editor Preview"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:274
+msgid "Egypt"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:275
+msgid "El Salvador"
+msgstr ""
+
+#: includes/Blocks/EmailInput.php:310
+msgid "Email"
+msgstr ""
+
+#: includes/Blocks/IconsList.php:105
+msgid "Email Ikona"
+msgstr ""
+
+#: includes/Blocks/EmailInput.php:14
+msgid "Email Input"
+msgstr ""
+
+#: includes/Blocks/ProductGrid.php:61
+msgid "Enable Attribute Filter"
+msgstr ""
+
+#: includes/Plugins/Woocomerce/WoocomerceController.php:70
+msgid "Enable automatic shipping settings"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:186
+msgid "Enable custom navigation arrows"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:221
+msgid "Enable to allow selection of dates in the past"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:151
+msgid "English"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:135
+msgid "Enter custom date format (e.g., d/m/Y)"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:165
+msgid "Enter custom locale code (e.g., cs)"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:197
+msgid "Enter custom meta key for phone storage"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:207
+msgid "Enter custom text for next month arrow (e.g., →)"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:193
+msgid "Enter custom text for previous month arrow (e.g., ←)"
+msgstr ""
+
+#: includes/Controllers/AdminController.php:147
+msgid ""
+"Enter your Google Maps API key. This key will be used for all Google Maps "
+"functionality in the plugin."
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:276
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:277
+msgid "Eritrea"
+msgstr ""
+
+#: includes/CPT/Quote.php:311
+msgid "Error"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/CreateOrderMutation.php:159
+msgid "Error creating order"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/SubmitQuoteMutation.php:81
+msgid "Error messages"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/SaveStepMutation.php:81
+msgid "Error messages as JSON string"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/CreateOrderMutation.php:164
+msgid "Error retrieving created order"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:278
+msgid "Estonia"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:279
+msgid "Ethiopia"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:407
+msgid "Event Location"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:281 includes/Blocks/TimePicker.php:195
+msgid "Events in day"
+msgstr ""
+
+#: includes/Blocks/StepSection.php:152
+msgid "Excluded Products"
+msgstr ""
+
+#: includes/Plugins/Woocomerce/WoocomerceController.php:101
+msgid "Express shipping"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/DistanceQuery.php:114
+msgid "Failed to initialize distance API: "
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:280
+msgid "Falkland Islands (Malvinas)"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:281
+msgid "Faroe Islands"
+msgstr ""
+
+#: includes/CPT/Quote.php:80 includes/CPT/Booking.php:46
+msgid "Featured Image"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:1684
+msgid "Field"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/ValidateAndSaveBlockMutation.php:186
+#: includes/Plugins/WpGraphql/Queries/QuotesCountQuery.php:69
+msgid "Field ID is required"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:56
+msgid "Field that triggers quote creation"
+msgstr ""
+
+#: includes/Blocks/AbstractBlock.php:304 includes/Blocks/AbstractBlock.php:314
+msgid "Fields"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:282
+msgid "Fiji"
+msgstr ""
+
+#: includes/CPT/Booking.php:51
+msgid "Filter bookings list"
+msgstr ""
+
+#: includes/Blocks/ProductGrid.php:66
+msgid "Filter by Attribute"
+msgstr ""
+
+#: includes/Blocks/StepSection.php:143 includes/Blocks/StepSection.php:154
+#: includes/Blocks/AbstractProductBlock.php:99
+msgid "Filter Products"
+msgstr ""
+
+#: includes/CPT/Quote.php:85
+msgid "Filter quotes list"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:283
+msgid "Finland"
+msgstr ""
+
+#: includes/Blocks/TextInput.php:119
+msgid "First & Last Name (combined)"
+msgstr ""
+
+#: includes/Blocks/TextInput.php:117
+msgid "First Name"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:148
+#: includes/Blocks/AbstractProductBlock.php:205
+msgid "Fixed Price"
+msgstr ""
+
+#: includes/Plugins/Woocomerce/WoocomerceController.php:98
+msgid "Flat rate"
+msgstr ""
+
+#: includes/Plugins/FluentCRM/FluentCRMController.php:20
+msgid ""
+"FluentCRM plugin is required for Quote automation to function properly. "
+"Please install and activate FluentCRM."
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/FormType.php:42
+msgid "Form blocks"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/SubmitQuoteMutation.php:58
+#: includes/Plugins/WpGraphql/Mutations/SaveStepMutation.php:54
+msgid "Form data as JSON string"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/SaveStepMutation.php:108
+msgid "Form data is required"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:26
+msgid "Form Design"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/CreateOrderMutation.php:52
+msgid "Form fields as key:value strings"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/FormQuery.php:62
+msgid "Form ID is required"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/FormQuery.php:69
+msgid "Form not found"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/FormOptionsType.php:22
+#: includes/Plugins/WpGraphql/Types/FormType.php:34
+msgid "Form options"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:95
+msgid "Form title"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:284
+msgid "France"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:609
+msgid "Free"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:597
+msgid "Free Products"
+msgstr ""
+
+#: includes/Plugins/Woocomerce/WoocomerceController.php:99
+msgid "Free shipping"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:154
+msgid "French"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:285
+msgid "French Guiana"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:286
+msgid "French Polynesia"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:287
+msgid "French Southern Territories"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:434
+#: includes/Blocks/AbstractProductBlock.php:706
+msgid "From"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:490
+msgid "From < n"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:32
+msgid "Frontend Conditions"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:236
+msgid "Fullscreen Control"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:288
+msgid "Gabon"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:289
+msgid "Gambia"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:25 includes/Blocks/PhoneInput.php:38
+#: includes/Blocks/DataPicker.php:25 includes/Blocks/DataPicker.php:38
+#: includes/Blocks/EmailInput.php:24 includes/Blocks/EmailInput.php:37
+#: includes/Blocks/TimePicker.php:36 includes/Blocks/TimePicker.php:50
+#: includes/Blocks/GoogleMap.php:26 includes/Blocks/TextInput.php:25
+#: includes/Blocks/TextInput.php:38 includes/Blocks/NumberInput.php:25
+#: includes/Blocks/NumberInput.php:37
+msgid "General"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:290
+msgid "Georgia"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:153
+msgid "German"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:291
+msgid "Germany"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:290
+msgid "Gesture Handling"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/FormQuery.php:29
+msgid "Get a form by ID"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/QuoteByHashQuery.php:28
+msgid "Get a quote by hash"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/QuoteQuery.php:28
+msgid "Get a quote by ID"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/ProductsQuery.php:17
+msgid "Get all published WooCommerce products"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/QuotesCountQuery.php:28
+msgid "Get count of quotes for a specific date and field"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:292
+msgid "Ghana"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:293
+msgid "Gibraltar"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:16
+msgid "Google Map Input"
+msgstr ""
+
+#: includes/Controllers/AdminController.php:146
+msgid "Google Maps API Key"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/DistanceQuery.php:106
+msgid "Google Maps API key is not configured"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:294
+msgid "Greece"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:295
+msgid "Greedy"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:295
+msgid "Greenland"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:296
+msgid "Grenada"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:297
+msgid "Guadeloupe"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:298
+msgid "Guam"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:299
+msgid "Guatemala"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:300
+msgid "Guernsey"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:301
+msgid "Guinea"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:302
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:303
+msgid "Guyana"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:304
+msgid "Haiti"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:305
+msgid "Heard Island and Mcdonald Islands"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:306
+msgid "Holy See (Vatican City State)"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:307
+msgid "Honduras"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:308
+msgid "Hong Kong"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://yourwebsite.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://yourwebsite.com/wpcbooking"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:309
+msgid "Hungary"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:161
+msgid "Hybrid"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:310
+msgid "Iceland"
+msgstr ""
+
+#: includes/Blocks/StepSection.php:74
+msgid "Icon"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:304
+msgid "Icon displayed on the confirmation page button"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:223
+msgid "Icon displayed on the send button"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:264
+msgid "Icon displayed on the thank you page button"
+msgstr ""
+
+#: includes/Blocks/StepSection.php:82
+msgid "Icon Mail"
+msgstr ""
+
+#: includes/Views/Blocks/Public/icons-list.php:4
+msgid "Icon Selection"
+msgstr ""
+
+#: includes/Blocks/IconsList.php:25 includes/Blocks/IconsList.php:36
+#: includes/Blocks/IconsList.php:68
+msgid "Icons"
+msgstr ""
+
+#: includes/Plugins/FluentCRM/QuoteStatusChangedTrigger.php:57
+msgid ""
+"If enabled, the automation will restart even if the contact is already in it."
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:123
+msgid "Image displayed as form background"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:169
+msgid "Include Products"
+msgstr ""
+
+#: includes/Blocks/StepSection.php:151
+#: includes/Blocks/AbstractProductBlock.php:179
+msgid "Included Products"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:311
+msgid "India"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:312
+msgid "Indonesia"
+msgstr ""
+
+#: includes/Blocks/ProductGrid.php:40
+msgid "Infinite scroll"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:200
+msgid "Information text"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/BlockType.php:34
+msgid "Inner blocks"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/QuoteDataInputType.php:22
+msgid "Input for updating quote data"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/InputType.php:26
+msgid "Input name"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/InputType.php:30
+msgid "Input value"
+msgstr ""
+
+#: includes/CPT/Booking.php:44
+msgid "Insert into booking"
+msgstr ""
+
+#: includes/CPT/Quote.php:78
+msgid "Insert into quote"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:28
+#: includes/Plugins/Woocomerce/WoocomerceController.php:35
+msgid "Integrations"
+msgstr ""
+
+#: includes/Traits/ValidatesBlockTrait.php:14
+msgid "Invalid field ID"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/SaveStepMutation.php:113
+msgid "Invalid form data JSON"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/ValidateAndSaveBlockMutation.php:179
+#: includes/Plugins/WpGraphql/Mutations/SubmitQuoteMutation.php:178
+msgid "Invalid JSON data"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:580
+msgid "Invalid latitude. Must be between -90 and 90."
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:593
+msgid "Invalid location format. Please select a location on the map."
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:585
+msgid "Invalid longitude. Must be between -180 and 180."
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/CreateOrderMutation.php:123
+msgid "Invalid session"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:313
+msgid "Iran, Islamic Republic Of"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:314
+msgid "Iraq"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:315
+msgid "Ireland"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:316
+msgid "Isle of Man"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:317
+msgid "Israel"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:318
+msgid "Italy"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/BlockType.php:46
+msgid "Item output"
+msgstr ""
+
+#: includes/Blocks/ProductGrid.php:47
+msgid "Items per load"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:319
+msgid "Jamaica"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:320
+msgid "Japan"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:321
+msgid "Jersey"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:322
+msgid "Jordan"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/ValidateAndSaveBlockMutation.php:66
+msgid "JSON response data"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:323
+msgid "Kazakhstan"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:324
+msgid "Kenya"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:302
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:325
+msgid "Kiribati"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:326
+msgid "Korea, Democratic People's Republic of"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:327
+msgid "Korea, Republic of"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:328
+msgid "Kuwait"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:329
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:84 includes/Blocks/PhoneInput.php:468
+#: includes/Blocks/DataPicker.php:84 includes/Blocks/DataPicker.php:305
+#: includes/Blocks/EmailInput.php:83 includes/Blocks/EmailInput.php:147
+#: includes/Blocks/IconsList.php:81 includes/Blocks/IconsList.php:92
+#: includes/Blocks/AbstractProductBlock.php:88
+#: includes/Blocks/TimePicker.php:96 includes/Blocks/TimePicker.php:227
+#: includes/Blocks/GoogleMap.php:85 includes/Blocks/GoogleMap.php:444
+#: includes/Blocks/TextInput.php:84 includes/Blocks/TextInput.php:154
+#: includes/Blocks/NumberInput.php:76 includes/Blocks/NumberInput.php:157
+#: includes/CPT/Quote.php:309
+msgid "Label"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:162
+msgid "Label displayed on the booking summary page"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:90
+msgid "Label for product"
+msgstr ""
+
+#: includes/Blocks/StepSection.php:112
+msgid "Label in summary"
+msgstr ""
+
+#: includes/Blocks/ProductGrid.php:30
+msgid "Label Pick Later"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:330
+msgid "Lao People's Democratic Republic"
+msgstr ""
+
+#: includes/Blocks/TextInput.php:118
+msgid "Last Name"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/DistanceQuery.php:54
+msgid "Latitude of the destination point"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/DistanceQuery.php:46
+msgid "Latitude of the origin point"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:331
+msgid "Latvia"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:332
+msgid "Lebanon"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:333
+msgid "Lesotho"
+msgstr ""
+
+#: includes/Views/CPT/Quote/Summary/cart.php:131
+msgid "Levering"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:334
+msgid "Liberia"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:335
+msgid "Libyan Arab Jamahiriya"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:336
+msgid "Liechtenstein"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:277
+msgid "Link where the thank you page button leads"
+msgstr ""
+
+#: includes/Core/Helper.php:746
+msgid "List of choices from step"
+msgstr ""
+
+#: includes/Views/Admin/summary.php:26
+#, php-format
+msgid "List of choices from step %s"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/ValidateAndSaveBlockMutation.php:70
+msgid "List of error messages"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:337
+msgid "Lithuania"
+msgstr ""
+
+#: includes/Blocks/ProductGrid.php:39
+msgid "Load more button"
+msgstr ""
+
+#: includes/Blocks/ProductGrid.php:36
+msgid "Loading Mode"
+msgstr ""
+
+#: includes/CPT/Quote.php:310
+msgid "Loading..."
+msgstr ""
+
+#: includes/Plugins/Woocomerce/WoocomerceController.php:100
+msgid "Local pickup"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:148
+msgid "Locale"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:559 includes/Blocks/GoogleMap.php:901
+msgid "Location"
+msgstr ""
+
+#: includes/Blocks/StepSection.php:185
+msgid "Logical Operator"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/DistanceQuery.php:58
+msgid "Longitude of the destination point"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/DistanceQuery.php:50
+msgid "Longitude of the origin point"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:338
+msgid "Luxembourg"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:339
+msgid "Macao"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:340
+msgid "Macedonia, The Former Yugoslav Republic of"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:341
+msgid "Madagascar"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:245
+msgid "Main heading displayed after successful booking"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:292
+msgid "Main heading displayed on the confirmation page"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:96
+msgid "Main title displayed on the booking form"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:342
+msgid "Malawi"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:343
+msgid "Malaysia"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:344
+msgid "Maldives"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:345
+msgid "Mali"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:346
+msgid "Malta"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:210
+msgid "Map Height (px)"
+msgstr ""
+
+#: includes/Blocks/TextInput.php:114
+msgid "Map this field to a WordPress user field"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:156
+msgid "Map Type"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:224
+msgid "Map Type Control"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:347
+msgid "Marshall Islands"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:348
+msgid "Martinique"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:349
+msgid "Mauritania"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:350
+msgid "Mauritius"
+msgstr ""
+
+#: includes/CPT/Quote.php:378
+msgid "Max Reached Step"
+msgstr ""
+
+#: includes/Blocks/TimePicker.php:145
+msgid "Max Time"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:202
+msgid "Max Zoom"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:113
+msgid "Maximum Date"
+msgstr ""
+
+#: includes/Blocks/NumberInput.php:113
+msgid "Maximum Value"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:351
+msgid "Mayotte"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:352
+msgid "Mexico"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:353
+msgid "Micronesia, Federated States of"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:383
+msgid "Min price"
+msgstr ""
+
+#: includes/Blocks/TimePicker.php:139
+msgid "Min Time"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:194
+msgid "Min Zoom"
+msgstr ""
+
+#: includes/Blocks/NumberInput.php:107
+msgid "Minimum Value"
+msgstr ""
+
+#: includes/Blocks/TimePicker.php:151
+msgid "Minute Increment"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:102
+msgid "Mode"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:354
+msgid "Moldova, Republic of"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:355
+msgid "Monaco"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:356
+msgid "Mongolia"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:357
+msgid "Montenegro"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:358
+msgid "Montserrat"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:359
+msgid "Morocco"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:360
+msgid "Mozambique"
+msgstr ""
+
+#: includes/Blocks/ProductList.php:30
+msgid "Must select a product"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:361
+msgid "Myanmar"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:362
+msgid "Namibia"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:129
+msgid "National Mode"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:123
+msgid "Native Names"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:363
+msgid "Nauru"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:364
+msgid "Nepal"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:365
+msgid "Netherlands"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:366
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: includes/CPT/Booking.php:35
+msgid "New Booking"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:367
+msgid "New Caledonia"
+msgstr ""
+
+#: includes/CPT/Quote.php:69
+msgid "New Quote"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:368
+msgid "New Zealand"
+msgstr ""
+
+#: includes/CPT/Quote.php:302
+msgid "Next"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:206
+msgid "Next Arrow Text"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:129
+#: includes/Plugins/WpGraphql/Types/FormOptionsType.php:30
+msgid "Next button text"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:369
+msgid "Nicaragua"
+msgstr ""
+
+#: includes/Blocks/TextInput.php:122
+msgid "Nickname"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:370
+msgid "Niger"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:371
+msgid "Nigeria"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:372
+msgid "Niue"
+msgstr ""
+
+#: includes/CPT/Booking.php:39
+msgid "No bookings found"
+msgstr ""
+
+#: includes/CPT/Booking.php:40
+msgid "No bookings found in Trash"
+msgstr ""
+
+#: includes/CPT/Quote.php:73
+msgid "No quotes found"
+msgstr ""
+
+#: includes/CPT/Quote.php:74
+msgid "No quotes found in Trash"
+msgstr ""
+
+#: includes/Blocks/ProductGrid.php:84 includes/Blocks/GoogleMap.php:296
+#: includes/Traits/BookingHelperTrait.php:31 includes/CPT/Quote.php:611
+msgid "None"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:373
+msgid "Norfolk Island"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:374
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:375
+msgid "Norway"
+msgstr ""
+
+#: includes/Blocks/NumberInput.php:247 includes/Blocks/NumberInput.php:300
+msgid "Number"
+msgstr ""
+
+#: includes/Blocks/NumberInput.php:15
+#: includes/Views/Blocks/Public/number-input.php:4
+msgid "Number Input"
+msgstr ""
+
+#: includes/Blocks/IconsList.php:75
+msgid "Number of Choices Allowed"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/ProductsQuery.php:51
+msgid "Number of products to return"
+msgstr ""
+
+#: includes/Blocks/NumberInput.php:88
+msgid "Number Options"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:376
+msgid "Oman"
+msgstr ""
+
+#: includes/Blocks/BookingForm.php:50
+msgid "Open form in new window"
+msgstr ""
+
+#: includes/CPT/Quote.php:118
+msgid "Opened"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/PriceIncreaseType.php:26
+msgid "Operation type"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:326
+msgid "Optimized"
+msgstr ""
+
+#: includes/Controllers/AdminController.php:137
+#: includes/Controllers/AdminController.php:138
+msgid "Options"
+msgstr ""
+
+#: includes/Blocks/StepSection.php:183
+msgid "OR"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/DistanceQuery.php:78
+msgid "Origin coordinates (originLat and originLng) are required"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/DistanceQuery.php:87
+msgid "Origin latitude must be between -90 and 90"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/DistanceQuery.php:91
+msgid "Origin longitude must be between -180 and 180"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:206
+msgid "Page link"
+msgstr ""
+
+#: includes/CPT/Quote.php:120
+msgid "Paid"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:377
+msgid "Pakistan"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:378
+msgid "Palau"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:379
+msgid "Palestinian Territory, Occupied"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:260
+msgid "Pan Control"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:380
+msgid "Panama"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:381
+msgid "Papua New Guinea"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:382
+msgid "Paraguay"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:231
+msgid "Per Field Price"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:150
+msgid "Percentage"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:383
+msgid "Peru"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:384
+msgid "Philippines"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:607
+msgid "Phone"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:15
+msgid "Phone Input"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:90
+msgid "Phone options"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:176
+msgid "Phone Type"
+msgstr ""
+
+#: includes/Blocks/IconsList.php:15
+msgid "Pick Icons"
+msgstr ""
+
+#: includes/Blocks/IconsList.php:158
+msgid "Pick icons"
+msgstr ""
+
+#: includes/Blocks/ProductGrid.php:31
+msgid "Pick later"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:97
+msgid "Pick Products"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:385
+msgid "Pitcairn"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:153 includes/Blocks/DataPicker.php:232
+#: includes/Blocks/EmailInput.php:95 includes/Blocks/TimePicker.php:169
+#: includes/Blocks/GoogleMap.php:343 includes/Blocks/TextInput.php:96
+#: includes/Blocks/NumberInput.php:136
+msgid "Placeholder Text"
+msgstr ""
+
+#: includes/Blocks/NumberInput.php:259
+msgid "Please enter a valid number."
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:598
+msgid "Please provide a valid address or select a location on the map."
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:590
+msgid "Please provide a valid address."
+msgstr ""
+
+#: includes/Blocks/NumberInput.php:125
+msgid "Plural"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:386
+msgid "Poland"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:387
+msgid "Portugal"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:109
+msgid "Preferred Countries"
+msgstr ""
+
+#: includes/CPT/Quote.php:303
+msgid "Previous"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:192
+msgid "Previous Arrow Text"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:135
+#: includes/Plugins/WpGraphql/Types/FormOptionsType.php:26
+msgid "Previous button text"
+msgstr ""
+
+#: includes/Views/Booking/summary.php:158
+msgid "Previous step"
+msgstr ""
+
+#: includes/CPT/Quote.php:289 includes/Views/Booking/summary.php:127
+msgid "Price"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:420
+#: includes/Blocks/AbstractProductBlock.php:475
+msgid "Price from to field"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:355
+msgid "Price in Currency"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/InnerBlockType.php:38
+msgid "Price increase"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:288 includes/Blocks/TimePicker.php:200
+#: includes/Blocks/GoogleMap.php:374
+msgid "Price Increase (%)"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/PriceIncreaseType.php:30
+msgid "Price increase amount"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/PriceIncreaseType.php:22
+msgid "Price increase information"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:180
+#: includes/Plugins/WpGraphql/Types/SummaryOptionsType.php:30
+msgid "Price label"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:305
+msgid "Price options"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:149
+msgid "Price per Field"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:259
+#: includes/Blocks/AbstractProductBlock.php:319
+msgid "Price Settings"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/BlockType.php:38
+msgid "Price step"
+msgstr ""
+
+#: includes/Views/Booking/summary.php:130
+msgid "Price Total"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:146
+msgid "Price Type"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:324
+#: includes/Blocks/AbstractProductBlock.php:360
+#: includes/Blocks/AbstractProductBlock.php:367
+#: includes/Blocks/AbstractProductBlock.php:389
+msgid "Price Value"
+msgstr ""
+
+#: includes/Core/Loader.php:40
+msgid ""
+"Pro správnou funkčnost je nutné mít nainstalovaný a aktivní plugin WPGraphQL."
+" Prosím, nainstalujte a aktivujte plugin <a href=\"https://github.com/wp-"
+"graphql/wp-graphql/releases\" target=\"_blank\">WPGraphQL</a>."
+msgstr ""
+
+#: includes/CPT/Quote.php:406
+#, php-format
+msgid "Proccess step: %s"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:602
+#: includes/Blocks/AbstractProductBlock.php:632
+msgid "Product"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:106
+msgid "Product Category"
+msgstr ""
+
+#: includes/Blocks/ProductGrid.php:15
+#: includes/Views/Blocks/Public/product-grid.php:4
+msgid "Product Grid"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:132
+#: includes/Plugins/WpGraphql/Queries/ProductsQuery.php:28
+msgid "Product ID"
+msgstr ""
+
+#: includes/Blocks/ProductList.php:16
+#: includes/Views/Blocks/Public/product-list.php:4
+msgid "Product List"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/ProductsQuery.php:32
+msgid "Product name"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/ProductsQuery.php:36
+msgid "Product price"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:119
+msgid "Product Tag"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/ProductsQuery.php:40
+msgid "Product thumbnail URL"
+msgstr ""
+
+#: includes/Blocks/StepSection.php:141
+msgid "Products in Cart"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:388
+msgid "Puerto Rico"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:389
+msgid "Qatar"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:541
+msgid "Qty"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:542
+msgid "Qty per Field"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:539
+msgid "Quantity Type"
+msgstr ""
+
+#: includes/CPT/Quote.php:61 includes/CPT/Quote.php:65
+#: includes/Plugins/FluentCRM/QuoteStatusChangedTrigger.php:69
+msgid "Quote"
+msgstr ""
+
+#: includes/CPT/Quote.php:76
+msgid "Quote Archives"
+msgstr ""
+
+#: includes/CPT/Quote.php:77
+msgid "Quote Attributes"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/QuoteType.php:54
+msgid "Quote blocks"
+msgstr ""
+
+#: includes/Plugins/FluentCRM/QuoteSmartCode.php:43
+msgid "Quote Date"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/ValidateAndSaveBlockMutation.php:49
+#: includes/Plugins/WpGraphql/Mutations/SubmitQuoteMutation.php:46
+#: includes/Plugins/WpGraphql/Mutations/SaveStepMutation.php:58
+msgid "Quote hash"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/ValidateAndSaveBlockMutation.php:166
+msgid "Quote Hash is required"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/SubmitQuoteMutation.php:189
+#: includes/Plugins/WpGraphql/Queries/QuoteByHashQuery.php:61
+msgid "Quote hash is required"
+msgstr ""
+
+#: includes/Plugins/FluentCRM/QuoteSmartCode.php:39
+#: includes/Plugins/WpGraphql/Mutations/CreateOrderMutation.php:48
+msgid "Quote ID"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/QuoteQuery.php:61
+msgid "Quote ID is required"
+msgstr ""
+
+#: includes/CPT/Quote.php:346
+msgid "Quote Information"
+msgstr ""
+
+#: includes/Views/CPT/Quote/single-quote.php:78
+msgid "Quote is not available – status is not \"sent\"."
+msgstr ""
+
+#: includes/Views/CPT/Quote/single-quote.php:16
+msgid "Quote not available"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/SubmitQuoteMutation.php:129
+#: includes/Plugins/WpGraphql/Queries/QuoteQuery.php:68
+#: includes/Plugins/WpGraphql/Queries/QuoteByHashQuery.php:79
+msgid "Quote not found"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/SubmitQuoteMutation.php:107
+msgid "Quote not found by hash"
+msgstr ""
+
+#: includes/CPT/Quote.php:89
+msgid "Quote published privately."
+msgstr ""
+
+#: includes/CPT/Quote.php:88
+msgid "Quote published."
+msgstr ""
+
+#: includes/CPT/Quote.php:90
+msgid "Quote reverted to draft."
+msgstr ""
+
+#: includes/CPT/Quote.php:91
+msgid "Quote scheduled."
+msgstr ""
+
+#: includes/Plugins/FluentCRM/ApplyQuoteStatusAction.php:59
+#: includes/Plugins/FluentCRM/QuoteSmartCode.php:40
+msgid "Quote Status"
+msgstr ""
+
+#: includes/Plugins/FluentCRM/QuoteStatusChangedTrigger.php:26
+msgid "Quote Status Changed"
+msgstr ""
+
+#: includes/Plugins/FluentCRM/QuoteStatusChangedTrigger.php:43
+msgid "Quote Status Changed Funnel"
+msgstr ""
+
+#: includes/CPT/Quote.php:219 includes/Plugins/FluentCRM/QuoteSmartCode.php:41
+msgid "Quote Summary"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/QuoteType.php:38
+#: includes/Plugins/WpGraphql/Types/QuoteDataInputType.php:26
+msgid "Quote total"
+msgstr ""
+
+#: includes/CPT/Quote.php:92
+msgid "Quote updated."
+msgstr ""
+
+#: includes/CPT/Quote.php:84
+msgid "Quotes"
+msgstr ""
+
+#: includes/CPT/Quote.php:87
+msgid "Quotes list"
+msgstr ""
+
+#: includes/CPT/Quote.php:86
+msgid "Quotes list navigation"
+msgstr ""
+
+#: includes/Views/CPT/Quote/Summary/cart.php:119
+msgid "Rabat"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:369
+msgid "Range (km)"
+msgstr ""
+
+#: includes/CPT/Quote.php:115
+msgid "Read"
+msgstr ""
+
+#. Description of the plugin
+msgid "refaktor a preact acf-flowform"
+msgstr ""
+
+#: includes/CPT/Quote.php:82 includes/CPT/Booking.php:48
+msgid "Remove featured image"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/InnerBlockType.php:46
+msgid "Render data"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:178
+msgid "Replace \"Today\" Text"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:158 includes/Blocks/DataPicker.php:238
+#: includes/Blocks/EmailInput.php:101 includes/Blocks/TimePicker.php:174
+#: includes/Blocks/GoogleMap.php:98 includes/Blocks/GoogleMap.php:348
+#: includes/Blocks/TextInput.php:101 includes/Blocks/NumberInput.php:141
+#: includes/CPT/BookingOptions.php:213
+#: includes/Views/Blocks/Public/text-input.php:8
+#: includes/Views/Blocks/Public/date-picker.php:8
+#: includes/Views/Blocks/Public/email-input.php:8
+#: includes/Views/Blocks/Public/phone-input.php:8
+#: includes/Views/Blocks/Public/number-input.php:15
+#: includes/Views/Blocks/Public/google-map.php:8
+#: includes/Views/Blocks/Public/time-picker.php:8
+msgid "Required"
+msgstr ""
+
+#: includes/Plugins/FluentCRM/QuoteStatusChangedTrigger.php:56
+msgid "Restart the Automation Multiple times for a contact for this event."
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:390
+msgid "Reunion"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:159
+msgid "Roadmap"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:391
+msgid "Romania"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:254
+msgid "Rotate Control"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:392
+msgid "Russian Federation"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:393
+msgid "Rwanda"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:394
+msgid "Saint Helena"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:395
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:396
+msgid "Saint Lucia"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:397
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:398
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:399
+msgid "Samoa"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:400
+msgid "San Marino"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:401
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:160
+msgid "Satellite"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:402
+msgid "Saudi Arabia"
+msgstr ""
+
+#: includes/CPT/Quote.php:304 includes/CPT/Quote.php:312
+msgid "Save"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:396
+msgid "Save address to user profile"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:141
+msgid "Save button text"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:171
+msgid "Save phone number to user profile"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:169 includes/Blocks/GoogleMap.php:394
+msgid "Save to User Profile"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:248
+msgid "Scale Control"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:278
+msgid "Scroll Wheel Zoom"
+msgstr ""
+
+#: includes/CPT/Booking.php:38
+msgid "Search Bookings"
+msgstr ""
+
+#: includes/CPT/Quote.php:72
+msgid "Search Quotes"
+msgstr ""
+
+#: includes/Blocks/AbstractBlock.php:305
+msgid "Select a field"
+msgstr ""
+
+#: includes/Blocks/BookingForm.php:43
+msgid "Select booking"
+msgstr ""
+
+#: includes/Plugins/Woocomerce/WoocomerceController.php:54
+msgid "Select currencies that will be available in the booking system"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:603
+#: includes/Blocks/AbstractProductBlock.php:633
+msgid "Select product"
+msgstr ""
+
+#: includes/Blocks/StepSection.php:168
+msgid "Select Products"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:180
+msgid "Select products to include in the booking"
+msgstr ""
+
+#: includes/Plugins/Woocomerce/WoocomerceController.php:77
+msgid "Select shipping method for bookings"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:57
+msgid ""
+"Select the field that must be filled in before the quote is created. The "
+"quote will be created automatically once this field is completed."
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:71
+msgid "Select the page where the booking form will be displayed"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:207
+msgid "Select the page with terms and conditions"
+msgstr ""
+
+#: includes/Plugins/FluentCRM/QuoteStatusChangedTrigger.php:51
+msgid "Select the statuses that will trigger this funnel."
+msgstr ""
+
+#: includes/Blocks/TimePicker.php:152
+msgid "Select the step for minute selection"
+msgstr ""
+
+#: includes/Plugins/FluentCRM/ApplyQuoteStatusAction.php:43
+#: includes/Plugins/FluentCRM/ApplyQuoteStatusAction.php:55
+msgid "Select which status will be applied to the Quote"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:31
+msgid "Selected Products"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:222
+#: includes/Plugins/WpGraphql/Types/SummaryOptionsType.php:42
+msgid "Send button icon"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:229
+#: includes/Plugins/WpGraphql/Types/SummaryOptionsType.php:38
+msgid "Send button text"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:403
+msgid "Senegal"
+msgstr ""
+
+#: includes/CPT/Quote.php:117
+msgid "Sent"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:141
+msgid "Separate Dial Code"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:404
+msgid "Serbia"
+msgstr ""
+
+#: includes/Blocks/TimePicker.php:126
+msgid "Set custom Time format"
+msgstr ""
+
+#: includes/CPT/Quote.php:81 includes/CPT/Booking.php:47
+msgid "Set featured image"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:114
+msgid "Set maximum selectable date (format: YYYY-MM-DD)"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:117
+msgid "Set the initial country selection"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:195
+msgid "Settings for terms and conditions agreements"
+msgstr ""
+
+#: includes/Controllers/AdminController.php:142
+msgid "Settings saved successfully."
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:405
+msgid "Seychelles"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:405
+msgid "Shipping Address"
+msgstr ""
+
+#: includes/Blocks/TextInput.php:133
+msgid "Shipping Address 1"
+msgstr ""
+
+#: includes/Blocks/TextInput.php:134
+msgid "Shipping Address 2"
+msgstr ""
+
+#: includes/Blocks/TextInput.php:135
+msgid "Shipping City"
+msgstr ""
+
+#: includes/Blocks/TextInput.php:132
+msgid "Shipping Company"
+msgstr ""
+
+#: includes/Blocks/TextInput.php:138
+msgid "Shipping Country"
+msgstr ""
+
+#: includes/Plugins/Woocomerce/WoocomerceController.php:76
+msgid "Shipping method"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:180
+msgid "Shipping Phone"
+msgstr ""
+
+#: includes/Blocks/TextInput.php:137
+msgid "Shipping Postcode"
+msgstr ""
+
+#: includes/Blocks/TextInput.php:136
+msgid "Shipping State"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/QuoteType.php:42
+#: includes/Plugins/WpGraphql/Types/QuoteDataInputType.php:34
+msgid "Shipping total"
+msgstr ""
+
+#: includes/Blocks/StepSection.php:105
+msgid "Show Background"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:174
+#: includes/Plugins/WpGraphql/Types/SummaryOptionsType.php:46
+msgid "Show calculations"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:124 includes/Blocks/PhoneInput.php:130
+msgid "Show native country names"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:168
+msgid "Show Store Address"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:406
+msgid "Sierra Leone"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:407
+msgid "Singapore"
+msgstr ""
+
+#: includes/Blocks/NumberInput.php:119
+msgid "Singular"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:408
+msgid "Slovakia"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:409
+msgid "Slovenia"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:410
+msgid "Solomon Islands"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:411
+msgid "Somalia"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:412
+msgid "South Africa"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:413
+msgid "South Georgia and the South Sandwich Islands"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:414
+msgid "Spain"
+msgstr ""
+
+#: includes/Blocks/DataPicker.php:155
+msgid "Spanish"
+msgstr ""
+
+#: includes/CPT/Quote.php:1013
+msgid "Special Fee"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:415
+msgid "Sri Lanka"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:114
+msgid "Standard text in black color"
+msgstr ""
+
+#: includes/CPT/Quote.php:153 includes/CPT/Quote.php:383
+msgid "Status"
+msgstr ""
+
+#: includes/Core/Helper.php:742 includes/Views/CPT/Quote/email-summary.php:146
+#: includes/Views/CPT/Quote/Summary/cart.php:37
+msgid "Step %d"
+msgstr ""
+
+#: includes/Controllers/BookingController.php:176
+msgid "Step not found"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/SaveStepMutation.php:50
+msgid "Step number"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/SaveStepMutation.php:104
+msgid "Step number is required"
+msgstr ""
+
+#: includes/Blocks/StepSection.php:19
+msgid "Step Section"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/SaveStepMutation.php:77
+msgid "Step summary data as JSON string"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:77
+msgid "Store Location"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:230
+msgid "Street View Control"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/FormOptionsType.php:34
+msgid "Submit button text"
+msgstr ""
+
+#: includes/CPT/Quote.php:114
+msgid "Submitted"
+msgstr ""
+
+#: includes/Blocks/EmailInput.php:123
+msgid "Subscriber"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:288
+msgid "Substract"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:416
+msgid "Sudan"
+msgstr ""
+
+#: includes/CPT/Quote.php:288
+msgid "Summary"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:161
+#: includes/Plugins/WpGraphql/Types/BlockDataType.php:30
+msgid "Summary label"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:163
+#: includes/Views/CPT/Quote/single-quote.php:88
+msgid "Summary of your event"
+msgstr ""
+
+#: includes/Views/Booking/summary.php:24
+#: includes/Views/CPT/Quote/email-summary.php:136
+msgid "summary of your event"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/SummaryOptionsType.php:22
+#: includes/Plugins/WpGraphql/Types/FormType.php:38
+msgid "Summary options"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:168
+#: includes/Plugins/WpGraphql/Types/SummaryOptionsType.php:26
+msgid "Summary text"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:417
+msgid "Suriname"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:418
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:77 includes/Blocks/DataPicker.php:77
+#: includes/Blocks/EmailInput.php:76 includes/Blocks/TimePicker.php:89
+#: includes/Blocks/GoogleMap.php:91 includes/Blocks/TextInput.php:77
+#: includes/Blocks/NumberInput.php:69
+msgid "SVG Icon"
+msgstr ""
+
+#: includes/Blocks/IconsList.php:98
+msgid "SVG Ikona"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:419
+msgid "Swaziland"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:420
+msgid "Sweden"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:421
+msgid "Switzerland"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:422
+msgid "Syrian Arab Republic"
+msgstr ""
+
+#: includes/CPT/Quote.php:363
+msgid "System sent the offer to the customer"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:151
+msgid "Table"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:423
+msgid "Taiwan, Province of China"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:424
+msgid "Tajikistan"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:425
+msgid "Tanzania, United Republic of"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:194
+#: includes/Plugins/WpGraphql/Types/SummaryOptionsType.php:50
+msgid "Terms and conditions"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/SubmitQuoteMutation.php:54
+msgid "Terms and conditions (array of term indices)"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:162
+msgid "Terrain"
+msgstr ""
+
+#: includes/Blocks/TextInput.php:234
+msgid "Text"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:136
+msgid "Text displayed on the back button"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:298
+msgid "Text displayed on the booking confirmation page"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:169
+msgid "Text displayed on the booking summary page"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:311
+msgid "Text displayed on the confirmation page button"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:130
+msgid "Text displayed on the continue button"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:142
+msgid "Text displayed on the save button"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:230
+msgid "Text displayed on the send booking button"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:251
+msgid "Text displayed on the thank you page"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:271
+msgid "Text displayed on the thank you page button"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:181
+msgid "Text for labeling the goods price"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:188
+msgid "Text for labeling the total price"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:105
+msgid "Text highlighted with color for better visibility"
+msgstr ""
+
+#: includes/Blocks/TextInput.php:15
+msgid "Text Input"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:426
+msgid "Thailand"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:239
+msgid "Thank you page"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:244
+msgid "Thank you page heading"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:250
+msgid "Thank you page text"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:556
+#, php-format
+msgid "The %s is not a valid phone number."
+msgstr ""
+
+#: includes/Blocks/EmailInput.php:203
+#, php-format
+msgid "The %s is not validate."
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:550 includes/Blocks/EmailInput.php:199
+#: includes/Blocks/GoogleMap.php:560 includes/Blocks/NumberInput.php:248
+#, php-format
+msgid "The %s is required."
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/QuotesCountQuery.php:49
+msgid "The date value in YYYY-MM-DD format"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/QuotesCountQuery.php:45
+msgid "The field ID to check"
+msgstr ""
+
+#: includes/Blocks/TimePicker.php:115
+msgid "The format displayed when editing a post"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/QuoteByHashQuery.php:45
+msgid "The hash of the quote"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/FormQuery.php:46
+#: includes/Plugins/WpGraphql/Types/FormType.php:26
+msgid "The ID of the form"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/QuoteQuery.php:45
+#: includes/Plugins/WpGraphql/Types/QuoteType.php:26
+msgid "The ID of the quote"
+msgstr ""
+
+#: includes/Plugins/FluentCRM/ApplyQuoteStatusAction.php:63
+msgid "The selected status will be applied to the quote."
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/FormType.php:30
+msgid "The title of the form"
+msgstr ""
+
+#: includes/Blocks/NumberInput.php:269
+#, php-format
+msgid "The value must be at least %s."
+msgstr ""
+
+#: includes/Blocks/NumberInput.php:275
+#, php-format
+msgid "The value must be at most %s."
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:478
+msgid ""
+"These conditions use AND. So all conditions need to apply for the products "
+"to show."
+msgstr ""
+
+#: includes/Plugins/FluentCRM/QuoteStatusChangedTrigger.php:44
+msgid "This Funnel will start when a specific quote status change occurs."
+msgstr ""
+
+#: includes/Plugins/FluentCRM/QuoteStatusChangedTrigger.php:27
+msgid "This Funnel will start when the quote status changes."
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/BlockDataType.php:34
+msgid "Thumbnail ID"
+msgstr ""
+
+#: includes/Views/CPT/Quote/Summary/cart.php:119
+msgid "Tilføjelse"
+msgstr ""
+
+#: includes/Blocks/TimePicker.php:376
+msgid "Time"
+msgstr ""
+
+#: includes/Blocks/TimePicker.php:102
+msgid "Time Options"
+msgstr ""
+
+#: includes/Blocks/TimePicker.php:15
+msgid "TimePicker Input"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:427
+msgid "Timor-Leste"
+msgstr ""
+
+#: includes/Blocks/StepSection.php:91
+msgid "Title"
+msgstr ""
+
+#: includes/Views/CPT/Quote/single-quote.php:126
+#: includes/Views/CPT/Quote/email-summary.php:229
+#: includes/Views/CPT/Quote/Summary/cart.php:110
+msgid "Tjenester"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:448
+#: includes/Blocks/AbstractProductBlock.php:713
+msgid "To"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:504
+msgid "To >= n"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:428
+msgid "Togo"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:429
+msgid "Tokelau"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:430
+msgid "Tonga"
+msgstr ""
+
+#: includes/CPT/Quote.php:290 includes/Views/CPT/Quote/single-quote.php:130
+#: includes/Views/CPT/Quote/email-summary.php:255
+#: includes/Views/CPT/Quote/Summary/cart.php:139
+msgid "Total"
+msgstr ""
+
+#: includes/Plugins/FluentCRM/QuoteSmartCode.php:42
+msgid "Total Amount"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/SummaryOptionsType.php:34
+msgid "Total label"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:187
+msgid "Total price label"
+msgstr ""
+
+#: includes/Plugins/FluentCRM/QuoteStatusChangedTrigger.php:48
+msgid "Trigger Statuses"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:431
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:432
+msgid "Tunisia"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:433
+msgid "Turkey"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:434
+msgid "Turkmenistan"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:435
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:436
+msgid "Tuvalu"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:418
+#: includes/Blocks/AbstractProductBlock.php:473
+msgid "Type"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:437
+msgid "Uganda"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:117
+msgid "UI & Optimization"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:438
+msgid "Ukraine"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/DistanceQuery.php:132
+msgid ""
+"Unable to calculate distance. Please check your coordinates and API "
+"configuration."
+msgstr ""
+
+#: includes/CPT/Quote.php:113 includes/CPT/Quote.php:491
+msgid "Unfinished"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:439
+msgid "United Arab Emirates"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:440
+msgid "United Kingdom"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:441
+msgid "United States"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:442
+msgid "United States Minor Outlying Islands"
+msgstr ""
+
+#: includes/CPT/Booking.php:45
+msgid "Uploaded to this booking"
+msgstr ""
+
+#: includes/CPT/Quote.php:79
+msgid "Uploaded to this quote"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:443
+msgid "Uruguay"
+msgstr ""
+
+#: includes/CPT/Quote.php:83 includes/CPT/Booking.php:49
+msgid "Use as featured image"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:27 includes/Blocks/PhoneInput.php:52
+#: includes/Blocks/EmailInput.php:26 includes/Blocks/EmailInput.php:51
+#: includes/Blocks/GoogleMap.php:29 includes/Blocks/GoogleMap.php:60
+#: includes/Blocks/TextInput.php:27 includes/Blocks/TextInput.php:52
+msgid "User"
+msgstr ""
+
+#: includes/CPT/Quote.php:360
+msgid "User completed the booking form"
+msgstr ""
+
+#: includes/Blocks/TextInput.php:112
+msgid "User Field Mapping"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:214
+msgid "User must agree before submission"
+msgstr ""
+
+#: includes/Blocks/EmailInput.php:120
+msgid "User Role"
+msgstr ""
+
+#: includes/CPT/Quote.php:359
+msgid "User started filling out the booking but didn't complete it"
+msgstr ""
+
+#: includes/Plugins/FluentCRM/QuoteSmartCode.php:45
+msgid "User View URL"
+msgstr ""
+
+#: includes/Blocks/TextInput.php:120
+msgid "Username"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:444
+msgid "Uzbekistan"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:265
+#: includes/Blocks/AbstractProductBlock.php:396
+#: includes/Blocks/AbstractProductBlock.php:556
+#: includes/Blocks/AbstractProductBlock.php:670
+msgid "Value"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:313
+msgid "Value for Column"
+msgstr ""
+
+#: includes/Blocks/AbstractProductBlock.php:308
+msgid "Value for Row"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Types/BlockType.php:42
+msgid "Value step"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:445
+msgid "Vanuatu"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:446
+msgid "Venezuela"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:447
+msgid "Viet Nam"
+msgstr ""
+
+#: includes/CPT/Booking.php:36
+msgid "View Booking"
+msgstr ""
+
+#: includes/CPT/Booking.php:37
+msgid "View Bookings"
+msgstr ""
+
+#: includes/CPT/Quote.php:70
+msgid "View Quote"
+msgstr ""
+
+#: includes/CPT/Quote.php:71
+msgid "View Quotes"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:448
+msgid "Virgin Islands, British"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:449
+msgid "Virgin Islands, U.S."
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:450
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: includes/Blocks/TextInput.php:123
+msgid "Website"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:451
+msgid "Western Sahara"
+msgstr ""
+
+#: includes/CPT/BookingOptions.php:50
+msgid ""
+"When disabled, quote is created immediately for the form. When enabled, you "
+"can select a field below - the quote will be created only after that field "
+"is filled in."
+msgstr ""
+
+#: includes/Blocks/BookingForm.php:51
+msgid ""
+"When enabled, form will save data and open the target URL in a new window "
+"instead of advancing to the next step. Only step 1 will be displayed."
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:136
+msgid "Whether or not to allow the dropdown"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/ValidateAndSaveBlockMutation.php:62
+msgid "Whether the operation was successful"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/SaveStepMutation.php:73
+msgid "Whether the save was successful"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/SubmitQuoteMutation.php:73
+msgid "Whether the submission was successful"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:423
+msgid "Will save as: prefix_address, prefix_city, prefix_lat, etc."
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Queries/ProductsQuery.php:24
+msgid "WooCommerce Product"
+msgstr ""
+
+#: includes/Plugins/Woocomerce/WoocomerceController.php:48
+msgid "WooCommerce settings"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/WpGraphqlController.php:19
+msgid ""
+"WPGraphQL plugin is required for WPC Booking to function properly. Please "
+"install and activate WPGraphQL."
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:452
+msgid "Yemen"
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/SubmitQuoteMutation.php:217
+#, php-format
+msgid "You must agree to %s"
+msgstr ""
+
+#: includes/Views/CPT/Quote/single-quote.php:182
+msgid "You must agree to the terms and conditions."
+msgstr ""
+
+#: includes/Plugins/WpGraphql/Mutations/CreateOrderMutation.php:130
+msgid "Your cart is empty."
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:453
+msgid "Zambia"
+msgstr ""
+
+#: includes/Blocks/PhoneInput.php:454
+msgid "Zimbabwe"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:242
+msgid "Zoom Control"
+msgstr ""
+
+#: includes/Blocks/GoogleMap.php:186
+msgid "Zoom Level"
+msgstr ""

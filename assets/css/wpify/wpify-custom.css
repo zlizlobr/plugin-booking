@@ -1,0 +1,701 @@
+/* ============================================
+   Wpify Custom Fields - Vlastní styly
+   ============================================
+   
+   Tento soubor obsahuje vlastní styling pro wpify
+   custom fields odpovídající designu booking formu.
+   
+   Styly jsou organizované podle field typů.
+   ============================================ */
+
+/* ============================================
+   CSS Proměnné - Bartender Theme Colors
+   ============================================ */
+:root {
+  /* Barvy z Bartender tématu */
+  --wpifycf-primary: #ee7013; /* th-orange */
+  --wpifycf-primary-light: #ffa25e; /* th-orange-light */
+  --wpifycf-primary-gradient-start: #ee7013; /* th-orange */
+  --wpifycf-primary-gradient-end: #ff2a6b; /* th-pink */
+  --wpifycf-accent: #2b76ed; /* th-blue */
+  --wpifycf-accent-light: #cfe2ff; /* th-blue-light */
+  
+  /* Šedé tóny */
+  --wpifycf-border: #e9f1fd; /* th-grey-ultralight */
+  --wpifycf-border-input: #2b76ed; /* th-blue pro inputy */
+  --wpifycf-bg-light: #f5f5f5; /* th-grey-lighter */
+  --wpifycf-bg-ultralight: #e9f1fd; /* th-grey-ultralight */
+  --wpifycf-bg-white: #fff;
+  --wpifycf-text-gray: #707070; /* th-grey */
+  --wpifycf-text-dark: #000000;
+  
+  /* Další barvy */
+  --wpifycf-success: #28a745;
+  --wpifycf-error: #dc3545;
+  --wpifycf-cyan: #13dbed; /* th-cyan */
+  --wpifycf-yellow: #ffd736; /* th-yellow */
+
+  /* Mezery (Bartender používá 5px kroky) */
+  --wpifycf-radius-sm: 10px; /* rounded-[10px] */
+  --wpifycf-radius-md: 50px; /* rounded-full pro některé elementy */
+  --wpifycf-gap-sm: 10px; /* 10p */
+  --wpifycf-gap-md: 15px; /* 15p */
+  --wpifycf-gap-lg: 20px; /* 20p */
+  --wpifycf-input-height: 55px; /* h-55p */
+
+  /* Animace */
+  --wpifycf-transition: all 0.3s ease;
+}
+
+/* ============================================
+   Toggle Field (WordPress ToggleControl)
+   ============================================ */
+
+.wpifycf-field-toggle {
+  display: flex;
+  align-items: center;
+  gap: var(--wpifycf-gap-md);
+  margin-bottom: var(--wpifycf-gap-md);
+}
+
+/* Toggle container */
+.wpifycf-field-toggle .components-toggle-control {
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Track (pozadí) */
+.wpifycf-field-toggle .components-toggle-control__track {
+  background: #ddd !important;
+  border: none !important;
+  border-radius: 20px !important;
+  width: 48px !important;
+  height: 24px !important;
+  padding: 0 !important;
+  transition: var(--wpifycf-transition) !important;
+  position: relative;
+  cursor: pointer;
+}
+
+/* Track - checked stav */
+.wpifycf-field-toggle
+  .components-toggle-control
+  input:checked
+  + .components-toggle-control__track {
+  background: linear-gradient(
+    to right,
+    var(--wpifycf-primary-gradient-start) 0%,
+    var(--wpifycf-primary-gradient-end) 100%
+  ) !important;
+  box-shadow: 0 2px 8px rgba(238, 112, 19, 0.3);
+}
+
+/* Track - hover */
+.wpifycf-field-toggle .components-toggle-control__track:hover {
+  box-shadow: 0 0 0 2px rgba(238, 112, 19, 0.15);
+}
+
+/* Thumb (kulička) */
+.wpifycf-field-toggle .components-toggle-control__thumb {
+  background: white !important;
+  width: 18px !important;
+  height: 18px !important;
+  border-radius: 50% !important;
+  position: absolute;
+  top: 3px !important;
+  left: 3px !important;
+  transition: var(--wpifycf-transition) !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Thumb - checked stav */
+.wpifycf-field-toggle
+  .components-toggle-control
+  input:checked
+  ~ .components-toggle-control__thumb {
+  left: 27px !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Input element (skrytý) */
+.wpifycf-field-toggle .components-toggle-control input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Focus stav */
+.wpifycf-field-toggle
+  .components-toggle-control
+  input:focus
+  + .components-toggle-control__track {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(238, 112, 19, 0.2);
+}
+
+/* Disabled stav */
+.wpifycf-field-toggle
+  .components-toggle-control
+  input:disabled
+  + .components-toggle-control__track {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Label */
+.wpifycf-field-toggle .components-toggle-control__label {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--wpifycf-text-dark);
+  margin-left: var(--wpifycf-gap-sm);
+  cursor: pointer;
+}
+
+/* ============================================
+   Obecné field wrapper styly
+   ============================================ */
+
+.wpifycf-field__wrapper {
+  margin-bottom: var(--wpifycf-gap-lg);
+}
+
+.wpifycf-field__label {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--wpifycf-text-dark);
+  margin-bottom: var(--wpifycf-gap-sm);
+  display: block;
+}
+
+.wpifycf-field__description {
+  font-size: 13px;
+  color: var(--wpifycf-text-gray);
+  margin-top: var(--wpifycf-gap-sm);
+  line-height: 1.5;
+}
+
+/* ============================================
+   Text Fields
+   ============================================ */
+
+.wpifycf-field-text input[type="text"],
+.wpifycf-field-email input[type="email"],
+.wpifycf-field-url input[type="url"],
+.wpifycf-field-tel input[type="tel"],
+.wpifycf-field-password input[type="password"],
+.wpifycf-field-number input[type="number"],
+.wpifycf-field-textarea textarea {
+  border: 2px solid var(--wpifycf-border-input);
+  border-radius: var(--wpifycf-radius-sm);
+  padding: 0 var(--wpifycf-gap-md);
+  height: var(--wpifycf-input-height);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--wpifycf-primary-light);
+  transition: var(--wpifycf-transition);
+  width: 100%;
+  max-width: 100%;
+  background: white;
+}
+
+.wpifycf-field-textarea textarea {
+  height: auto;
+  min-height: 120px;
+  padding: var(--wpifycf-gap-md);
+}
+
+.wpifycf-field-text input:focus,
+.wpifycf-field-email input:focus,
+.wpifycf-field-url input:focus,
+.wpifycf-field-tel input:focus,
+.wpifycf-field-password input:focus,
+.wpifycf-field-number input:focus,
+.wpifycf-field-textarea textarea:focus {
+  outline: none;
+  border-color: var(--wpifycf-accent);
+  box-shadow: 0 0 0 3px var(--wpifycf-accent-light);
+}
+
+.wpifycf-field-text input::placeholder,
+.wpifycf-field-email input::placeholder,
+.wpifycf-field-url input::placeholder,
+.wpifycf-field-tel input::placeholder,
+.wpifycf-field-password input::placeholder,
+.wpifycf-field-number input::placeholder,
+.wpifycf-field-textarea textarea::placeholder {
+  color: var(--wpifycf-text-gray);
+  opacity: 0.6;
+}
+
+/* ============================================
+   Select Fields
+   ============================================ */
+
+.wpifycf-select select,
+.wpifycf-field-select select {
+  border: 2px solid var(--wpifycf-border-input);
+  border-radius: var(--wpifycf-radius-sm);
+  padding: 0 var(--wpifycf-gap-md);
+  height: var(--wpifycf-input-height);
+  font-size: 16px;
+  color: var(--wpifycf-primary-light);
+  transition: var(--wpifycf-transition);
+  background-color: white;
+  cursor: pointer;
+}
+
+.wpifycf-select select:focus,
+.wpifycf-field-select select:focus {
+  outline: none;
+  border-color: var(--wpifycf-accent);
+  box-shadow: 0 0 0 3px var(--wpifycf-accent-light);
+}
+
+/* ============================================
+   Checkbox Fields
+   ============================================ */
+
+.wpifycf-field-checkbox input[type="checkbox"],
+.wpifycf-field-multi-checkbox input[type="checkbox"] {
+  width: 24px;
+  height: 24px;
+  border: 2px solid var(--wpifycf-border);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: var(--wpifycf-transition);
+  appearance: none;
+  -webkit-appearance: none;
+  position: relative;
+  background: white;
+}
+
+.wpifycf-field-checkbox input[type="checkbox"]:checked,
+.wpifycf-field-multi-checkbox input[type="checkbox"]:checked {
+  background: var(--wpifycf-accent);
+  border-color: var(--wpifycf-accent);
+}
+
+.wpifycf-field-checkbox input[type="checkbox"]:checked::after,
+.wpifycf-field-multi-checkbox input[type="checkbox"]:checked::after {
+  content: "✓";
+  position: absolute;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wpifycf-field-checkbox input[type="checkbox"]:focus,
+.wpifycf-field-multi-checkbox input[type="checkbox"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--wpifycf-accent-light);
+}
+
+/* ============================================
+   Radio Fields
+   ============================================ */
+
+.wpifycf-field-radio input[type="radio"] {
+  width: 32px;
+  height: 32px;
+  border: 2px solid var(--wpifycf-border);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: var(--wpifycf-transition);
+  appearance: none;
+  -webkit-appearance: none;
+  position: relative;
+  background: white;
+}
+
+.wpifycf-field-radio input[type="radio"]:checked {
+  border-color: var(--wpifycf-primary-light);
+}
+
+.wpifycf-field-radio input[type="radio"]:checked::after {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--wpifycf-primary-light);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wpifycf-field-radio input[type="radio"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--wpifycf-accent-light);
+}
+
+/* ============================================
+   Button Fields
+   ============================================ */
+
+.wpifycf-button {
+  background: white;
+  border: 2px solid var(--wpifycf-primary);
+  border-radius: var(--wpifycf-radius-md);
+  color: var(--wpifycf-primary);
+  padding: 12px 30px;
+  min-height: var(--wpifycf-input-height);
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--wpifycf-transition);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--wpifycf-gap-sm);
+}
+
+.wpifycf-button:hover {
+  background: linear-gradient(
+    to right,
+    var(--wpifycf-primary-gradient-start),
+    var(--wpifycf-primary-gradient-end)
+  );
+  color: white;
+  border-color: transparent;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(238, 112, 19, 0.3);
+}
+
+.wpifycf-button:active {
+  transform: translateY(0);
+}
+
+.wpifycf-button--primary {
+  background: linear-gradient(
+    to right,
+    var(--wpifycf-primary-gradient-start),
+    var(--wpifycf-primary-gradient-end)
+  );
+  color: white;
+  border: none;
+}
+
+.wpifycf-button--primary:hover {
+  box-shadow: 0 6px 16px rgba(238, 112, 19, 0.4);
+  transform: translateY(-2px);
+}
+
+/* ============================================
+   Field Groups
+   ============================================ */
+
+.wpifycf-field-group {
+  border: 1px solid var(--wpifycf-border);
+  border-radius: var(--wpifycf-radius-sm);
+  padding: var(--wpifycf-gap-lg);
+  background: var(--wpifycf-bg-white);
+}
+
+.wpifycf-field-multi-group__item {
+  border: 1px solid var(--wpifycf-border);
+  border-radius: var(--wpifycf-radius-sm);
+  margin-bottom: var(--wpifycf-gap-md);
+  overflow: hidden;
+  transition: var(--wpifycf-transition);
+}
+
+.wpifycf-field-multi-group__item:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.wpifycf-field-multi-group__item-header {
+  background: var(--wpifycf-bg-light);
+  padding: var(--wpifycf-gap-md);
+  border-bottom: 1px solid var(--wpifycf-border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wpifycf-field-multi-group__title {
+  font-weight: 600;
+  color: var(--wpifycf-text-dark);
+  cursor: pointer;
+}
+
+/* ============================================
+   Validation States
+   ============================================ */
+
+.wpifycf-field--invalid input,
+.wpifycf-field--invalid textarea,
+.wpifycf-field--invalid select {
+  border-color: var(--wpifycf-error) !important;
+}
+
+.wpifycf-field__error {
+  color: var(--wpifycf-error);
+  font-size: 13px;
+  margin-top: var(--wpifycf-gap-sm);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.wpifycf-field__error::before {
+  content: "⚠";
+}
+
+/* ============================================
+   Range / Slider Fields
+   ============================================ */
+
+.wpifycf-field-range {
+  display: flex;
+  align-items: center;
+  gap: var(--wpifycf-gap-md);
+}
+
+.wpifycf-field-range input[type="range"] {
+  flex: 1;
+  height: 8px;
+  border-radius: 4px;
+  background: var(--wpifycf-bg-light);
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.wpifycf-field-range input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: linear-gradient(
+    to right,
+    var(--wpifycf-primary-gradient-start),
+    var(--wpifycf-primary-gradient-end)
+  );
+  cursor: pointer;
+  border: 2px solid white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.wpifycf-field-range input[type="range"]::-moz-range-thumb {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: linear-gradient(
+    to right,
+    var(--wpifycf-primary-gradient-start),
+    var(--wpifycf-primary-gradient-end)
+  );
+  cursor: pointer;
+  border: 2px solid white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.wpifycf-field-range__value {
+  min-width: 60px;
+  padding: var(--wpifycf-gap-sm) var(--wpifycf-gap-md);
+  background: var(--wpifycf-bg-light);
+  border: 2px solid var(--wpifycf-border);
+  border-radius: var(--wpifycf-radius-sm);
+  text-align: center;
+  font-weight: 600;
+  color: var(--wpifycf-primary-light);
+}
+
+/* ============================================
+   Color Picker Fields
+   ============================================ */
+
+.wpifycf-field-color input[type="color"] {
+  width: 60px;
+  height: var(--wpifycf-input-height);
+  border: 2px solid var(--wpifycf-border-input);
+  border-radius: var(--wpifycf-radius-sm);
+  cursor: pointer;
+  padding: 4px;
+  background: white;
+}
+
+.wpifycf-field-color input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+.wpifycf-field-color input[type="color"]::-webkit-color-swatch {
+  border: none;
+  border-radius: 6px;
+}
+
+/* ============================================
+   Date/Time Fields
+   ============================================ */
+
+.wpifycf-field-date input[type="date"],
+.wpifycf-field-time input[type="time"],
+.wpifycf-field-datetime input[type="datetime-local"] {
+  border: 2px solid var(--wpifycf-border-input);
+  border-radius: var(--wpifycf-radius-sm);
+  padding: 0 var(--wpifycf-gap-md);
+  height: var(--wpifycf-input-height);
+  font-size: 16px;
+  color: var(--wpifycf-primary-light);
+  transition: var(--wpifycf-transition);
+  background: white;
+  cursor: pointer;
+}
+
+.wpifycf-field-date input:focus,
+.wpifycf-field-time input:focus,
+.wpifycf-field-datetime input:focus {
+  outline: none;
+  border-color: var(--wpifycf-accent);
+  box-shadow: 0 0 0 3px var(--wpifycf-accent-light);
+}
+
+/* ============================================
+   File Upload Fields
+   ============================================ */
+
+.wpifycf-field-attachment__button,
+.wpifycf-field-multi-attachment__button {
+  background: white;
+  border: 2px dashed var(--wpifycf-border);
+  border-radius: var(--wpifycf-radius-sm);
+  padding: var(--wpifycf-gap-lg);
+  text-align: center;
+  cursor: pointer;
+  transition: var(--wpifycf-transition);
+  color: var(--wpifycf-text-gray);
+}
+
+.wpifycf-field-attachment__button:hover,
+.wpifycf-field-multi-attachment__button:hover {
+  border-color: var(--wpifycf-primary);
+  color: var(--wpifycf-primary);
+  background: var(--wpifycf-bg-ultralight);
+}
+
+.wpifycf-attachment-item {
+  border: 2px solid var(--wpifycf-border);
+  border-radius: var(--wpifycf-radius-sm);
+  overflow: hidden;
+  transition: var(--wpifycf-transition);
+}
+
+.wpifycf-attachment-item:hover {
+  border-color: var(--wpifycf-accent);
+  box-shadow: 0 2px 8px rgba(43, 118, 237, 0.2);
+}
+
+/* ============================================
+   WYSIWYG Editor Fields
+   ============================================ */
+
+.wpifycf-field-wysiwyg__editor {
+  border: 2px solid var(--wpifycf-border-input);
+  border-radius: var(--wpifycf-radius-sm);
+  min-height: 200px;
+  padding: var(--wpifycf-gap-md);
+}
+
+.wpifycf-field-wysiwyg__editor:focus-within {
+  border-color: var(--wpifycf-accent);
+  box-shadow: 0 0 0 3px var(--wpifycf-accent-light);
+}
+
+/* ============================================
+   Link Fields
+   ============================================ */
+
+.wpifycf-field-link__url-input {
+  display: flex;
+  gap: var(--wpifycf-gap-sm);
+  align-items: center;
+}
+
+.wpifycf-field-link__url-input input {
+  flex: 1;
+}
+
+/* ============================================
+   Post/Term Selection Fields
+   ============================================ */
+
+.wpifycf-post-preview,
+.wpifycf-term-item {
+  border: 2px solid var(--wpifycf-border);
+  border-radius: var(--wpifycf-radius-sm);
+  padding: var(--wpifycf-gap-md);
+  background: white;
+  transition: var(--wpifycf-transition);
+}
+
+.wpifycf-post-preview:hover,
+.wpifycf-term-item:hover {
+  border-color: var(--wpifycf-accent);
+  box-shadow: 0 2px 8px rgba(43, 118, 237, 0.15);
+}
+
+/* ============================================
+   Icon Button Styling
+   ============================================ */
+
+.wpifycf-icon-button {
+  padding: 8px;
+  border-radius: 50%;
+  transition: var(--wpifycf-transition);
+  background: transparent;
+}
+
+.wpifycf-icon-button:hover {
+  background: var(--wpifycf-bg-light);
+}
+
+.wpifycf-icon-button--trash:hover {
+  background: rgba(220, 53, 69, 0.1);
+}
+
+.wpifycf-icon-button--plus,
+.wpifycf-icon-button--minus {
+  background: var(--wpifycf-bg-light);
+  border: 2px solid var(--wpifycf-accent);
+  border-radius: var(--wpifycf-radius-sm);
+}
+
+.wpifycf-icon-button--plus:hover,
+.wpifycf-icon-button--minus:hover {
+  background: var(--wpifycf-accent);
+}
+
+.wpifycf-icon-button--plus:hover svg,
+.wpifycf-icon-button--minus:hover svg {
+  fill: white;
+}
+
+/* ============================================
+   Responsive
+   ============================================ */
+
+@media (max-width: 768px) {
+  .wpifycf-field__wrapper {
+    margin-bottom: var(--wpifycf-gap-md);
+  }
+
+  .wpifycf-field-toggle {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .wpifycf-field-text input[type="text"],
+  .wpifycf-field-email input[type="email"],
+  .wpifycf-field-url input[type="url"],
+  .wpifycf-field-tel input[type="tel"],
+  .wpifycf-field-password input[type="password"],
+  .wpifycf-field-number input[type="number"] {
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
+}

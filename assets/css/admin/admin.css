@@ -1,0 +1,19 @@
+@import '../shared/base.css';
+@import '../shared/components.css';
+@import '../shared/utilities.css';
+@import './components/forms.css';
+@import './components/tables.css';
+@import './components/modals.css';
+@import './components/datepicker.css';
+@import './components/block-documentation.css';
+@import './utilities/admin-only.css';
+@import '../wpify/index.css';
+@import './table-builder.css';
+
+/* Import wpify modules */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom admin styles below */

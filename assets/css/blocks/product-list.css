@@ -1,0 +1,167 @@
+.table-builder-component {
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.table-container {
+  overflow-x: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.table-builder-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 500px;
+}
+
+.table-builder-table th,
+.table-builder-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table-builder-table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+.row-header,
+.column-header {
+  position: relative;
+  min-width: 120px;
+}
+
+.header-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.header-buttons,
+.row-buttons {
+  display: flex;
+  gap: 4px;
+}
+
+.btn-add,
+.btn-edit,
+.btn-delete,
+.btn-close,
+.btn-cancel,
+.btn-save {
+  background: none;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.btn-add:hover,
+.btn-edit:hover,
+.btn-save:hover {
+  background-color: #e3f2fd;
+}
+
+.btn-delete:hover,
+.btn-close:hover,
+.btn-cancel:hover {
+  background-color: #ffebee;
+}
+
+.row-name-cell {
+  background-color: #f9f9f9;
+  font-weight: bold;
+}
+
+.row-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.data-cell {
+  padding: 0;
+}
+
+.cell-input {
+  width: 100%;
+  border: none;
+  padding: 8px;
+  background: transparent;
+  text-align: center;
+}
+
+.cell-input:focus {
+  outline: 2px solid #2196f3;
+  background-color: #fff;
+}
+
+.add-column-header {
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.empty-cell {
+  background-color: #f9f9f9;
+}
+
+.dialog-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.dialog {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  min-width: 600px;
+  max-width: 90vw;
+  min-height: 400px;
+  max-height: 90vh;
+}
+
+.dialog-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.dialog-header h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.dialog-content {
+  padding: 20px;
+}
+
+.dialog-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.dialog-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  padding: 16px 20px;
+  border-top: 1px solid #eee;
+}

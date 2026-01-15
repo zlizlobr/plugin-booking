@@ -1,0 +1,307 @@
+/* Custom Timepicker Styles - matching DatePicker design */
+
+/* Flatpickr time picker container */
+.flatpickr-calendar.noCalendar {
+  background: white !important;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  border: 1px solid #e5e7eb;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  padding: 20px 24px;
+  width: auto;
+  min-width: 280px;
+  margin-top: 8px;
+}
+
+/* Time container */
+.flatpickr-time {
+  border: none !important;
+  padding: 0 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 8px !important;
+  height: auto !important;
+  max-height: none !important;
+}
+
+/* Time wrapper */
+.flatpickr-time .flatpickr-time-wrapper {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  height: auto !important;
+}
+
+/* Number input wrapper - grid layout: input + stacked arrows */
+.flatpickr-time .numInputWrapper {
+  position: relative !important;
+  display: grid !important;
+  grid-template-columns: 60px 28px !important;
+  grid-template-rows: 28px 28px !important;
+  column-gap: 4px !important;
+  row-gap: 0 !important;
+  width: auto !important;
+  height: auto !important;
+  flex-shrink: 0 !important;
+}
+
+/* Input styling - spans both rows */
+.flatpickr-time .numInputWrapper .numInput {
+  grid-column: 1 !important;
+  grid-row: 1 / 3 !important;
+  width: 60px !important;
+  height: 56px !important;
+}
+
+/* Hour and Minute inputs */
+.flatpickr-time .flatpickr-hour,
+.flatpickr-time .flatpickr-minute {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  color: #1f2937 !important;
+  background: #f9fafb !important;
+  border: 2px solid #e5e7eb !important;
+  border-radius: 8px !important;
+  padding: 8px 12px !important;
+  width: 60px !important;
+  height: 56px !important;
+  text-align: center !important;
+  transition: all 0.2s ease !important;
+  box-shadow: none !important;
+  line-height: 1.2 !important;
+}
+
+.flatpickr-time .flatpickr-hour:hover,
+.flatpickr-time .flatpickr-minute:hover {
+  border-color: #ff8c00 !important;
+  background: #fff7ed !important;
+}
+
+.flatpickr-time .flatpickr-hour:focus,
+.flatpickr-time .flatpickr-minute:focus {
+  border-color: #ff8c00 !important;
+  background: white !important;
+  outline: none !important;
+  box-shadow: 0 0 0 3px rgba(255, 140, 0, 0.1) !important;
+}
+
+/* Time separator (colon) */
+.flatpickr-time .flatpickr-time-separator {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  color: #6b7280 !important;
+  margin: 0 4px !important;
+  align-self: center !important;
+  padding-top: 0 !important;
+}
+
+/* Arrow buttons - stacked in right grid column */
+.flatpickr-time .arrowUp,
+.flatpickr-time .arrowDown {
+  width: 28px !important;
+  height: 28px !important;
+  border-radius: 6px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #ff8c00 !important;
+  background: white !important;
+  border: 2px solid #e5e7eb !important;
+  transition: all 0.2s ease !important;
+  cursor: pointer !important;
+  position: relative !important;
+  padding: 0 !important;
+  line-height: 1 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.flatpickr-time .arrowUp {
+  grid-column: 2 !important;
+  grid-row: 1 !important;
+  margin-bottom: 0px !important;
+}
+
+.flatpickr-time .arrowDown {
+  grid-column: 2 !important;
+  grid-row: 1 !important;
+  margin-top: 13px !important;
+}
+
+.flatpickr-time .arrowUp:hover,
+.flatpickr-time .arrowDown:hover {
+  background-color: #fff7ed !important;
+  border-color: #ff8c00 !important;
+}
+
+.flatpickr-time .arrowUp:active,
+.flatpickr-time .arrowDown:active {
+  background-color: #ff8c00 !important;
+  color: white !important;
+}
+
+/* Arrow icons */
+.flatpickr-time .arrowUp::after {
+  /* content: "▲" !important; */
+  font-size: 10px !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  color: inherit !important;
+}
+
+.flatpickr-time .arrowDown::after {
+  /* content: "▼" !important; */
+  font-size: 10px !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  color: inherit !important;
+}
+
+/* Hide default SVG arrows */
+.flatpickr-time .arrowUp svg,
+.flatpickr-time .arrowDown svg {
+  display: none !important;
+}
+
+.flatpickr-time .arrowUp *:not(::after),
+.flatpickr-time .arrowDown *:not(::after) {
+  display: none !important;
+}
+
+/* Remove default spinner buttons from number inputs */
+.flatpickr-time input[type="number"]::-webkit-outer-spin-button,
+.flatpickr-time input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+  display: none !important;
+}
+
+.flatpickr-time input[type="number"] {
+  appearance: textfield !important;
+  -moz-appearance: textfield !important;
+}
+
+/* Make sure the calendar is visible */
+.flatpickr-calendar.open,
+.flatpickr-calendar.inline {
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: block !important;
+}
+
+/* Ensure proper stacking */
+.flatpickr-calendar {
+  z-index: 9999 !important;
+}
+
+/* Fix for hover background */
+.numInputWrapper:hover {
+  background-color: transparent !important;
+}
+
+/* Time picker action buttons container */
+.flatpickr-time-buttons {
+  display: flex !important;
+  gap: 8px !important;
+  margin-top: 16px !important;
+  padding-top: 16px !important;
+  border-top: 1px solid #e5e7eb !important;
+  width: 100% !important;
+}
+
+/* Base button styles */
+.flatpickr-time-btn {
+  flex: 1 !important;
+  padding: 10px 16px !important;
+  border: 2px solid transparent !important;
+  border-radius: 8px !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  text-align: center !important;
+  line-height: 1.2 !important;
+  font-family: inherit !important;
+}
+
+/* Now button - secondary style */
+.flatpickr-time-btn-now {
+  background: #f9fafb !important;
+  color: #374151 !important;
+  border-color: #e5e7eb !important;
+}
+
+.flatpickr-time-btn-now:hover {
+  background: #fff7ed !important;
+  border-color: #ff8c00 !important;
+  color: #ff8c00 !important;
+}
+
+.flatpickr-time-btn-now:active {
+  background: #ffedd5 !important;
+}
+
+/* Select button - primary style (orange theme) */
+.flatpickr-time-btn-select {
+  background: #ff8c00 !important;
+  color: white !important;
+  border-color: #ff8c00 !important;
+}
+
+.flatpickr-time-btn-select:hover {
+  background: #f97316 !important;
+  border-color: #f97316 !important;
+}
+
+.flatpickr-time-btn-select:active {
+  background: #ea580c !important;
+  border-color: #ea580c !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .flatpickr-calendar.noCalendar {
+    min-width: 280px !important;
+    padding: 16px !important;
+  }
+
+  .flatpickr-time .flatpickr-hour,
+  .flatpickr-time .flatpickr-minute {
+    font-size: 16px !important;
+    width: 55px !important;
+    padding: 6px 10px !important;
+  }
+
+  .flatpickr-time .flatpickr-time-separator {
+    font-size: 16px !important;
+    padding-top: 0 !important;
+    margin: 0 3px !important;
+  }
+
+  .flatpickr-time .arrowUp,
+  .flatpickr-time .arrowDown {
+    width: 24px !important;
+    height: 24px !important;
+  }
+
+  .flatpickr-time .arrowUp::after,
+  .flatpickr-time .arrowDown::after {
+    font-size: 8px !important;
+  }
+
+  .flatpickr-time-buttons {
+    margin-top: 12px !important;
+    padding-top: 12px !important;
+  }
+
+  .flatpickr-time-btn {
+    padding: 8px 12px !important;
+    font-size: 13px !important;
+  }
+}
